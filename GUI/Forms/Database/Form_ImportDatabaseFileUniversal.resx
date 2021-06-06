@@ -1,0 +1,2381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Name" xml:space="preserve">
+    <value>comboBox_dbType</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Name" xml:space="preserve">
+    <value>textBox_dbFile</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 113</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Database file and type</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="comboBox_dbType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 69</value>
+  </data>
+  <data name="comboBox_dbType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="comboBox_dbType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 28</value>
+  </data>
+  <data name="comboBox_dbType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBox_dbType.ToolTip" xml:space="preserve">
+    <value>Database file type (format). This is important !!
+You must choose choose the correct format otherwsie
+comparing will not work.</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Name" xml:space="preserve">
+    <value>comboBox_dbType</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox_dbType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 26</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 35</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&amp;Browse</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox_dbFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 29</value>
+  </data>
+  <data name="textBox_dbFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="textBox_dbFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 26</value>
+  </data>
+  <data name="textBox_dbFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBox_dbFile.ToolTip" xml:space="preserve">
+    <value>The database file path.</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Name" xml:space="preserve">
+    <value>textBox_dbFile</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox_dbFile.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Name" xml:space="preserve">
+    <value>checkBox_add_filters</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Name" xml:space="preserve">
+    <value>checkBox_import_category</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Name" xml:space="preserve">
+    <value>checkBox_turboe</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Name" xml:space="preserve">
+    <value>checkBox_cahceOndisk</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Name" xml:space="preserve">
+    <value>checkBox_archive_perfect_match</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Name" xml:space="preserve">
+    <value>checkBox_forNesArchiveTweeks</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Name" xml:space="preserve">
+    <value>textBox_archive_extesnions</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Name" xml:space="preserve">
+    <value>textBox_archivePassword</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Name" xml:space="preserve">
+    <value>checkBox_check_inside_archive</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 433</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 366</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Compressed file options</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="checkBox_add_filters.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_add_filters.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_add_filters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 97</value>
+  </data>
+  <data name="checkBox_add_filters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_add_filters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 24</value>
+  </data>
+  <data name="checkBox_add_filters.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBox_add_filters.Text" xml:space="preserve">
+    <value>Add filters if available (i.e filters by region).</value>
+  </data>
+  <data name="checkBox_add_filters.ToolTip" xml:space="preserve">
+    <value>Some database formats include filter information
+(i.e. CSV includes rom region info for roms)
+If this option is set and the database supports 
+filters, EO will import this information and add it
+as filters that can be used in the filters section.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Name" xml:space="preserve">
+    <value>checkBox_add_filters</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_add_filters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_import_category.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_import_category.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 63</value>
+  </data>
+  <data name="checkBox_import_category.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_import_category.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 24</value>
+  </data>
+  <data name="checkBox_import_category.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBox_import_category.Text" xml:space="preserve">
+    <value>Add categories into rom if available.</value>
+  </data>
+  <data name="checkBox_import_category.ToolTip" xml:space="preserve">
+    <value>Some database formats include category information
+(i.e. CSV includes rom category under Genre)
+If this option is set and the database tyüe supports 
+category, EO will import this information into rom
+category as well.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Name" xml:space="preserve">
+    <value>checkBox_import_category</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_import_category.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 321</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 35</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="button3.ToolTip" xml:space="preserve">
+    <value>Reset the archive extesnions form parent console.</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_turboe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_turboe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 165</value>
+  </data>
+  <data name="checkBox_turboe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_turboe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="checkBox_turboe.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkBox_turboe.Text" xml:space="preserve">
+    <value>TURBO SPEED</value>
+  </data>
+  <data name="checkBox_turboe.ToolTip" xml:space="preserve">
+    <value>Increase the process speed by removing the matched
+entry from the memory pool. This will increase process
+speed but reduce possiblities, for example, if the console 
+contain the same file (inside an archive file or not) more 
+that once, the first file detected as match get updated, 
+the other same ones will not be matched.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Name" xml:space="preserve">
+    <value>checkBox_turboe</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_turboe.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_cahceOndisk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_cahceOndisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 165</value>
+  </data>
+  <data name="checkBox_cahceOndisk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_cahceOndisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 24</value>
+  </data>
+  <data name="checkBox_cahceOndisk.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBox_cahceOndisk.Text" xml:space="preserve">
+    <value>Cache on disk.</value>
+  </data>
+  <data name="checkBox_cahceOndisk.ToolTip" xml:space="preserve">
+    <value>If set, extract all archive content on disk before comparing.
+This may speed things up specially for nes console, whcih
+requires to calculate crc/md5.sha1 with header bytes skip.
+
+The 7z has a bug when attempting to extract a single file. the
+whoile archive get extracted (and skipped) until the demanded
+file get extracted .... this will extremly slow the progress.
+
+*WARNING: never ever set this option if the console contain
+archive files with huge sizes (above 50 MB) </value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Name" xml:space="preserve">
+    <value>checkBox_cahceOndisk</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_cahceOndisk.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 199</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 24</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.Text" xml:space="preserve">
+    <value>Perfect match (match all crcs of the archive file, MAME only)</value>
+  </data>
+  <data name="checkBox_archive_perfect_match.ToolTip" xml:space="preserve">
+    <value>Used by some databases (MAME for example) if set,
+all archive file content must match entries from the
+database until compared rom (the archive one) 
+considered a match.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Name" xml:space="preserve">
+    <value>checkBox_archive_perfect_match</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_archive_perfect_match.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 131</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 24</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.Text" xml:space="preserve">
+    <value>This database file is for nes (use speed methods for archive check)</value>
+  </data>
+  <data name="checkBox_forNesArchiveTweeks.ToolTip" xml:space="preserve">
+    <value>It's recommended to set this option if you are using
+a database for NES console. NES files with iNES extesnions
+require some tricky calculations due to header skip.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Name" xml:space="preserve">
+    <value>checkBox_forNesArchiveTweeks</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_forNesArchiveTweeks.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_archive_extesnions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 324</value>
+  </data>
+  <data name="textBox_archive_extesnions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="textBox_archive_extesnions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 26</value>
+  </data>
+  <data name="textBox_archive_extesnions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBox_archive_extesnions.ToolTip" xml:space="preserve">
+    <value>Only files with these extensions considerd COMPRESSED.
+The files with other extesnions will be treated as normal
+roms.</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Name" xml:space="preserve">
+    <value>textBox_archive_extesnions</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox_archive_extesnions.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 299</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Archive file extesnsions:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_archivePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 264</value>
+  </data>
+  <data name="textBox_archivePassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="textBox_archivePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 26</value>
+  </data>
+  <data name="textBox_archivePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBox_archivePassword.ToolTip" xml:space="preserve">
+    <value>Password to use if the archive files are locked with a passwrod.
+Note that this password will be used for all compressed files.</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Name" xml:space="preserve">
+    <value>textBox_archivePassword</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox_archivePassword.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 239</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 20</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>If the archive file is locked, use this password:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBox_check_inside_archive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_check_inside_archive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="checkBox_check_inside_archive.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_check_inside_archive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 24</value>
+  </data>
+  <data name="checkBox_check_inside_archive.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_check_inside_archive.Text" xml:space="preserve">
+    <value>If rom file is compressed, check inside it for match.</value>
+  </data>
+  <data name="checkBox_check_inside_archive.ToolTip" xml:space="preserve">
+    <value>If set: 
+If the rom file is compressd, the program will look
+inside of it (and extract its content if neccessary)
+for matched file. 
+
+Note that remaming (or database applying) will 
+be made by the first entry that match any archive
+content file.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Name" xml:space="preserve">
+    <value>checkBox_check_inside_archive</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_check_inside_archive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Name" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Name" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Name" xml:space="preserve">
+    <value>checkBox_delete_not_matched_related</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Name" xml:space="preserve">
+    <value>checkBox_delete_not_matched_files</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Name" xml:space="preserve">
+    <value>checkBox_delete_roms_nott_found</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 14</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 409</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Not matched rom options</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Name" xml:space="preserve">
+    <value>radioButton_parent_not_match_keep_parent_if_one_child_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Name" xml:space="preserve">
+    <value>radioButton_parent_not_mathc_free_matched_children</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Name" xml:space="preserve">
+    <value>checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox_parent_not_match.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_parent_not_match.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 243</value>
+  </data>
+  <data name="groupBox_parent_not_match.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_parent_not_match.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_parent_not_match.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 155</value>
+  </data>
+  <data name="groupBox_parent_not_match.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBox_parent_not_match.Text" xml:space="preserve">
+    <value>When a parent rom DOES NOT MATCH any entry:</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Name" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_not_match.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 24</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.Text" xml:space="preserve">
+    <value>Keep the parent only if at least one child match.</value>
+  </data>
+  <data name="radioButton_parent_not_match_keep_parent_if_one_child_match.ToolTip" xml:space="preserve">
+    <value>Work only if "delete the roms not matched from console" is set.
+
+If the rom is a parent rom, and that rom DOES NOT match any entry
+of  the database, this option (if set) will keep the PARENT only if at
+least one child rom match an entry of the database.
+The matched child will stay with the parent as well, along with other
+matched children. For not matched children, you can set to remove 
+them or not using the option below
+"delete children not match"</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Name" xml:space="preserve">
+    <value>radioButton_parent_not_match_keep_parent_if_one_child_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_match_keep_parent_if_one_child_match.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 100</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 44</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.Text" xml:space="preserve">
+    <value>Remove the parent, keep the child that match and make it single 
+(no parent nor child)</value>
+  </data>
+  <data name="radioButton_parent_not_mathc_free_matched_children.ToolTip" xml:space="preserve">
+    <value>Work only if "delete the roms not matched from console" is set.
+
+If the rom is a parent rom, and that rom DOES NOT match any entry
+of  the database, this option (if set) will REMOVE the PARENT anyway.
+The matched child/children will stay and marked as SINGLE rom (not 
+parent nor child)</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Name" xml:space="preserve">
+    <value>radioButton_parent_not_mathc_free_matched_children</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_not_mathc_free_matched_children.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 24</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Text" xml:space="preserve">
+    <value>Delete children not match.</value>
+  </data>
+  <data name="checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.ToolTip" xml:space="preserve">
+    <value>Work only if "delete the roms not matched from console" is set.
+
+If the rom is a parent rom, and that rom DOES NOT match any entry
+of  the database, this option (if set) will keep the PARENT only if at
+least one child rom match an entry of the database. The other children
+that not match will stay with the parent as well.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Name" xml:space="preserve">
+    <value>checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_not_match</value>
+  </data>
+  <data name="&gt;&gt;checkBox_parent_not_match_keep_on_one_child_match_dont_keep_unmathced_children.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Name" xml:space="preserve">
+    <value>radioButton_parent_match_keep_all_children</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Name" xml:space="preserve">
+    <value>radioButton_parent_matche_keep_matched_only</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Parent" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox_parent_match.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox_parent_match.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 135</value>
+  </data>
+  <data name="groupBox_parent_match.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_parent_match.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_parent_match.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 98</value>
+  </data>
+  <data name="groupBox_parent_match.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="groupBox_parent_match.Text" xml:space="preserve">
+    <value>When a parent rom matches an entry:</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Name" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox_parent_match.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 24</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.Text" xml:space="preserve">
+    <value>Keep its all children (matched or not)</value>
+  </data>
+  <data name="radioButton_parent_match_keep_all_children.ToolTip" xml:space="preserve">
+    <value>Work only if "delete the roms not matched from console" is set.
+
+If the rom is a parent rom, and that rom matches an entry from
+the database, this option (if set) will keep all the children roms
+(matched or not) of this parent along with the parent.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Name" xml:space="preserve">
+    <value>radioButton_parent_match_keep_all_children</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.Parent" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_match_keep_all_children.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 24</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.Text" xml:space="preserve">
+    <value>Keep the child that match (remove children that not match)</value>
+  </data>
+  <data name="radioButton_parent_matche_keep_matched_only.ToolTip" xml:space="preserve">
+    <value>Work only if "delete the roms not matched from console" is set.
+
+If the rom is a parent rom, and that rom matches an entry from
+the database, this option (if set) will keep only the child/children 
+roms that match entry/entries of this parent along with the parent.
+
+Not matched children will be removed from database (and from
+disk if the options aboce say so).</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Name" xml:space="preserve">
+    <value>radioButton_parent_matche_keep_matched_only</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.Parent" xml:space="preserve">
+    <value>groupBox_parent_match</value>
+  </data>
+  <data name="&gt;&gt;radioButton_parent_matche_keep_matched_only.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 100</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.Size" type="System.Drawing.Size, System.Drawing">
+    <value>462, 24</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.Text" xml:space="preserve">
+    <value>Delete the roms not matched related files as well (be careful !)</value>
+  </data>
+  <data name="checkBox_delete_not_matched_related.ToolTip" xml:space="preserve">
+    <value>If a rom not matched and need to be deleted (option
+above is set), delete the rom related file(s) from DISK as well.
+Related files can be images (snaps, covers ..etc), videos, 
+sounds and everyfile assigned for this rom as information
+container tab.
+BE CAREFUL !!</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Name" xml:space="preserve">
+    <value>checkBox_delete_not_matched_related</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_related.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 24</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.Text" xml:space="preserve">
+    <value>Delete the roms not matched files as well (be careful !)</value>
+  </data>
+  <data name="checkBox_delete_not_matched_files.ToolTip" xml:space="preserve">
+    <value>If a rom not matched and need to be deleted (option
+above is set), delete the rom file from DISK as well.
+BE CAREFUL !!</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Name" xml:space="preserve">
+    <value>checkBox_delete_not_matched_files</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_not_matched_files.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 24</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.Text" xml:space="preserve">
+    <value>Delete the roms not matched from console.</value>
+  </data>
+  <data name="checkBox_delete_roms_nott_found.ToolTip" xml:space="preserve">
+    <value>Remove the rom that not matched from database.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Name" xml:space="preserve">
+    <value>checkBox_delete_roms_nott_found</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_delete_roms_nott_found.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Name" xml:space="preserve">
+    <value>radioButton_compare_rom_file_name</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Name" xml:space="preserve">
+    <value>radioButton_compare_sha1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Name" xml:space="preserve">
+    <value>radioButton_compare_md5</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Name" xml:space="preserve">
+    <value>radioButton_compare_crc</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Name" xml:space="preserve">
+    <value>radioButton_compare_name</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 137</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 206</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Compare options:</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 65</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 24</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.Text" xml:space="preserve">
+    <value>Rom FILE name &lt;-&gt; Database entry file name</value>
+  </data>
+  <data name="radioButton_compare_rom_file_name.ToolTip" xml:space="preserve">
+    <value>Compare :
+Rom FILE NAME with ENTRY NAMES.
+
+WARNING:
+Very slow in some cases, specially with compressed roms. 
+Please use this only if neccessary.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Name" xml:space="preserve">
+    <value>radioButton_compare_rom_file_name</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_rom_file_name.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_compare_sha1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_compare_sha1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 169</value>
+  </data>
+  <data name="radioButton_compare_sha1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_compare_sha1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 24</value>
+  </data>
+  <data name="radioButton_compare_sha1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radioButton_compare_sha1.Text" xml:space="preserve">
+    <value>Rom file SHA1 &lt;-&gt; Database entry SHA1</value>
+  </data>
+  <data name="radioButton_compare_sha1.ToolTip" xml:space="preserve">
+    <value>Compare:
+Rom file SHA1 &lt;-&gt; ENTRY SHA1
+
+For compressed file, you need to configure
+how's the sha1 should be compared.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Name" xml:space="preserve">
+    <value>radioButton_compare_sha1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_sha1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_compare_md5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_compare_md5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="radioButton_compare_md5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_compare_md5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 24</value>
+  </data>
+  <data name="radioButton_compare_md5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButton_compare_md5.Text" xml:space="preserve">
+    <value>Rom file MD5 &lt;-&gt; Database entry MD5</value>
+  </data>
+  <data name="radioButton_compare_md5.ToolTip" xml:space="preserve">
+    <value>Compare:
+Rom file MD5 &lt;-&gt; ENTRY MD5
+
+For compressed file, you need to configure
+how's the md5 should be compared.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Name" xml:space="preserve">
+    <value>radioButton_compare_md5</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_md5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButton_compare_crc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_compare_crc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 98</value>
+  </data>
+  <data name="radioButton_compare_crc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_compare_crc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 24</value>
+  </data>
+  <data name="radioButton_compare_crc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton_compare_crc.Text" xml:space="preserve">
+    <value>Rom file CRC &lt;-&gt; Database entry CRC</value>
+  </data>
+  <data name="radioButton_compare_crc.ToolTip" xml:space="preserve">
+    <value>Compare:
+Rom file CRC &lt;-&gt; ENTRY CRC
+
+For compressed file, you need to configure
+how's the crc should be compared.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Name" xml:space="preserve">
+    <value>radioButton_compare_crc</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_crc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioButton_compare_name.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_compare_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 29</value>
+  </data>
+  <data name="radioButton_compare_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="radioButton_compare_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 24</value>
+  </data>
+  <data name="radioButton_compare_name.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton_compare_name.Text" xml:space="preserve">
+    <value>Rom name &lt;-&gt; Database entry file name</value>
+  </data>
+  <data name="radioButton_compare_name.ToolTip" xml:space="preserve">
+    <value>Compare :
+Rom NAME with ENTRY NAMES.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Name" xml:space="preserve">
+    <value>radioButton_compare_name</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_compare_name.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Name" xml:space="preserve">
+    <value>panel_db_options</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 353</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 346</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Database type options (if any)</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel_db_options.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_db_options.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="panel_db_options.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="panel_db_options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 317</value>
+  </data>
+  <data name="panel_db_options.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Name" xml:space="preserve">
+    <value>panel_db_options</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;panel_db_options.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Name" xml:space="preserve">
+    <value>progressBar_slave</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Name" xml:space="preserve">
+    <value>label_status_sub</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Name" xml:space="preserve">
+    <value>progressBar_master</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Name" xml:space="preserve">
+    <value>label_status_master</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 910</value>
+  </data>
+  <data name="groupBox_status.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_status.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>908, 126</value>
+  </data>
+  <data name="groupBox_status.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox_status.Text" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="&gt;&gt;groupBox_status.Name" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;groupBox_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_status.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_status.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="progressBar_slave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 95</value>
+  </data>
+  <data name="progressBar_slave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="progressBar_slave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 17</value>
+  </data>
+  <data name="progressBar_slave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="progressBar_slave.ToolTip" xml:space="preserve">
+    <value>Show current operation progress</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Name" xml:space="preserve">
+    <value>progressBar_slave</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;progressBar_slave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_status_sub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
+  </data>
+  <data name="label_status_sub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_status_sub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 20</value>
+  </data>
+  <data name="label_status_sub.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label_status_sub.Text" xml:space="preserve">
+    <value>Click start to begin.</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Name" xml:space="preserve">
+    <value>label_status_sub</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;label_status_sub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="progressBar_master.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 49</value>
+  </data>
+  <data name="progressBar_master.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="progressBar_master.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 17</value>
+  </data>
+  <data name="progressBar_master.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="progressBar_master.ToolTip" xml:space="preserve">
+    <value>Show current progress</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Name" xml:space="preserve">
+    <value>progressBar_master</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;progressBar_master.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_status_master.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 25</value>
+  </data>
+  <data name="label_status_master.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_status_master.Size" type="System.Drawing.Size, System.Drawing">
+    <value>887, 20</value>
+  </data>
+  <data name="label_status_master.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label_status_master.Text" xml:space="preserve">
+    <value>Click start to begin.</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Name" xml:space="preserve">
+    <value>label_status_master</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.Parent" xml:space="preserve">
+    <value>groupBox_status</value>
+  </data>
+  <data name="&gt;&gt;label_status_master.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 981</value>
+  </data>
+  <data name="button_start.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="button_start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 55</value>
+  </data>
+  <data name="button_start.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button_start.Text" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="&gt;&gt;button_start.Name" xml:space="preserve">
+    <value>button_start</value>
+  </data>
+  <data name="&gt;&gt;button_start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_start.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 917</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 38</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Cancel / Stop</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="checkBox_rename_parent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_rename_parent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 157</value>
+  </data>
+  <data name="checkBox_rename_parent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="checkBox_rename_parent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>481, 24</value>
+  </data>
+  <data name="checkBox_rename_parent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_rename_parent.Text" xml:space="preserve">
+    <value>If the rom is a parent rom, apply entry (rename, data info ...) on it.</value>
+  </data>
+  <data name="checkBox_rename_parent.ToolTip" xml:space="preserve">
+    <value>If set: if a parent rom (compressed or not) matches an
+entry from the database, this parent get updated using
+that entry (naming, adding data elements ..etc)
+
+Note that any matched child will be updated regadless
+of parent (this option is set or not) and will be treated
+as normal roms (using options above).</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_parent.Name" xml:space="preserve">
+    <value>checkBox_rename_parent</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_parent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_parent.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_parent.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 77</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 24</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.Text" xml:space="preserve">
+    <value>Apply rom data-info in rom from entry (if available)</value>
+  </data>
+  <data name="checkBox_apply_rom_data_info.ToolTip" xml:space="preserve">
+    <value>If set, matched roms (single and children roms) will
+take info data from database (if any) and add them
+as info data (displayed as column in roms list).</value>
+  </data>
+  <data name="&gt;&gt;checkBox_apply_rom_data_info.Name" xml:space="preserve">
+    <value>checkBox_apply_rom_data_info</value>
+  </data>
+  <data name="&gt;&gt;checkBox_apply_rom_data_info.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_apply_rom_data_info.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;checkBox_apply_rom_data_info.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_rename_rom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_rename_rom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 47</value>
+  </data>
+  <data name="checkBox_rename_rom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 24</value>
+  </data>
+  <data name="checkBox_rename_rom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_rename_rom.Text" xml:space="preserve">
+    <value>Rename rom (apply "Name" entry on it in "Name" rom property).</value>
+  </data>
+  <data name="checkBox_rename_rom.ToolTip" xml:space="preserve">
+    <value>If set, matched rom (single roms and children roms)
+will be renamed setting "Name" property of that
+rom.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_rom.Name" xml:space="preserve">
+    <value>checkBox_rename_rom</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_rom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_rom.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;checkBox_rename_rom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 709</value>
+  </data>
+  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 191</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Matched rom options</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 24</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 20</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>For normal roms and children of parent roms:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 112</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>433, 40</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>WORK ONLY ON PARENT ROMS, CHILD ROMS WILL BE 
+TREATED AS NORMAL ROMS (using options above):</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 807</value>
+  </data>
+  <data name="groupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>557, 93</value>
+  </data>
+  <data name="groupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="richTextBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 22</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>551, 68</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>* Please read options carrefully and configure this importer carrefully to get the needed results.
+* You can import the same database format file into the same console multible times and each time change the options to get the needed results.
+* After importing database format file, if there is a data-info that applyed into column and the content doesn't display correctly (usually named "Description", not enough room in column for that text), please note that you can use option "Data info to info Tab" from "Tools" main menu, this tool convert data-info data into text-info tab and save them in files. There is no other way around this issue.</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>groupBox7</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>27</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1141, 1046</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Import Database File</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_ImportDatabaseFileUniversal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

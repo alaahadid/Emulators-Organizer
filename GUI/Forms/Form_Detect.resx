@@ -1,0 +1,1328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Folder name</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>362</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 110</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABS
+        BQAAAk1TRnQBSQFMAwEBAAHgAQAB4AEAARABAAEQAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABQAMA
+        ARADAAEBAQABIAYAARD/AP8AGAADQAFwAVICVAGmAVUCXAHqAVEBbQF/AfcBUQFtAX8B9wFRAW0BfwH3
+        AVEBbQF/AfcBUQFtAX8B9wFRAW0BfwH3AVEBbQF/AfcBUQFtAX8B9wFRAW0BfwH3AVMCZAHxA0wBk8gA
+        AVgCYQHmA10B8AGnAa0BtQH9AZ4B2wH0Af8BlgHaAfMB/wGOAdgB8wH/AYYB1wHzAf8BYwHUAfIB/wFd
+        AdMB8gH/AVYB0gHxAf8BUAHQAfEB/wFNAc8B8QH/AYsBswHBAf4BTgJdAfDIAAFRAW0BgAH3Ae8B+gH+
+        Af8BoQHpAfkB/wGRAeUB+AH/AYEB4QH3Af8BVgHeAfYB/wFHAdoB9QH/ATgB1wH0Af8BKwHTAfMB/wEd
+        AdAB8gH/ARIBzQHxAf8BCgHLAfAB/wHKAfIB+wH/AVEBbQGAAffIAAE+AW0BewH4AfIB+gH9Af8BswHt
+        AfoB/wGkAekB+QH/AZUB5gH4Af8BhQHiAfcB/wFaAd4B9gH/AUkB2wH1Af8BOwHXAfQB/wEtAdQB8wH/
+        AR8B0QHyAf8BFAHOAfEB/wHMAfIB+wH/AVEBbQGAAffIAAFBAWsBhQH5AfYB/AH+Af8ByAHyAfwB/wG5
+        Ae8B+wH/AawB7AH6Af8BnAHoAfkB/wGLAeMB9wH/AWAB4AH2Af8BUAHcAfYB/wFBAdkB9QH/ATMB1gH0
+        Af8BKAHTAfMB/wHQAfMB/AH/AVEBbQGAAffIAAFNAXIBfgH6Af4D/wH4Af0C/wH2Af0C/wH1AfwC/wHz
+        AfwB/gH/AdgB9gH8Af8BlAHmAfgB/wGFAeMB9wH/AVoB3wH2Af8BTAHbAfUB/wFAAdgB9AH/AdcB9AH8
+        Af8BUQFtAYAB98gAAU0BdAF+AfoB6AH2AfsB/wGUAdQB7wH/AYgBzgHuAf8BVwHBAekB/wHJAekB9gH/
+        AfIB/AH+Af8B8wH8Af4B/wHyAfwB/gH/AfAB/AH+Af8B7wH7Af4B/wHuAfsB/gH/Af4D/wFRAW0BgAH3
+        yAABWQJnAfIB8QH6Af0B/wGUAd4B9QH/AZMB3AH0Af8BgQHVAfIB/wFOAcoB7QH/AVABywHqAf8BhQHT
+        Ae8B/wGAAdIB7wH/AV4B0AHvAf8BWgHPAe4B/wFWAc8B7gH/AekB9wH7Af8BTAFfAWgB88gAAU4CXQHw
+        AfcB/AH+Af8BjgHkAfgB/wGRAd4B9QH/AZ8B4AH1Af8BrAHhAfYB/wHvAfsB/gH/AfQB/QH+Af8B8wH8
+        Af4B/wHxAfwB/gH/Ae8B+wH+Af8B7gH7Af4B/wGJAooB+QFcAmAB1MgAAT4BdAF7AfgB/QL+Af8B/gP/
+        Av4C/wH9Af4C/wH+A/8B6gH3AfsB/wFqAYIBhgH5AVwBeAF8AfgBXAF4AXwB+AFcAXgBfAH4AW0BfQGB
+        AfcDYQHhAzUBVsgAAVsCXgHQAU0BeQGDAfoBTQF5AYMB+gFNAXkBgwH6AU0BeQGDAfoBTQF5AYMB+gFY
+        Al4B3QMQARYDCwEPAwsBDwMLAQ8DCwEPAwsBDwMDAQT/AP8A/wDHAAFCAU0BPgcAAT4DAAEoAwABQAMA
+        ARADAAEBAQABAQUAAYAXAAP/AQAC/wYAAv8GAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGA
+        AQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAGAAQEGAAL/BgAC/wYAAv8GAAs=
+</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>214, 17</value>
+  </metadata>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 12</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value>Click to add forlder to the list</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 41</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="button2.ToolTip" xml:space="preserve">
+    <value>Remove selected folder(s)</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 569</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="button3.ToolTip" xml:space="preserve">
+    <value>Click to start the search</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="button4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 569</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="button4.ToolTip" xml:space="preserve">
+    <value>Cancel/Stop</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Extensions to use (split with ';'):</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox_extensions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="textBox_extensions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 20</value>
+  </data>
+  <data name="textBox_extensions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textBox_extensions.ToolTip" xml:space="preserve">
+    <value>Enter extensions here, use ',' to split.</value>
+  </data>
+  <data name="&gt;&gt;textBox_extensions.Name" xml:space="preserve">
+    <value>textBox_extensions</value>
+  </data>
+  <data name="&gt;&gt;textBox_extensions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_extensions.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;textBox_extensions.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_includeSubFolders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_includeSubFolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 206</value>
+  </data>
+  <data name="checkBox_includeSubFolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 17</value>
+  </data>
+  <data name="checkBox_includeSubFolders.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBox_includeSubFolders.Text" xml:space="preserve">
+    <value>Include subfolders in search</value>
+  </data>
+  <data name="checkBox_includeSubFolders.ToolTip" xml:space="preserve">
+    <value>If enabled, the program will search inside all folders
+of the folders in the list including the sub folders
+(the folders inside the folders)</value>
+  </data>
+  <data name="&gt;&gt;checkBox_includeSubFolders.Name" xml:space="preserve">
+    <value>checkBox_includeSubFolders</value>
+  </data>
+  <data name="&gt;&gt;checkBox_includeSubFolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_includeSubFolders.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_includeSubFolders.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBox_matchCase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_matchCase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="checkBox_matchCase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="checkBox_matchCase.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBox_matchCase.Text" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="checkBox_matchCase.ToolTip" xml:space="preserve">
+    <value>Use match case in search (case sensetive...)</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchCase.Name" xml:space="preserve">
+    <value>checkBox_matchCase</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchCase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchCase.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchCase.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_matchWord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_matchWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="checkBox_matchWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="checkBox_matchWord.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBox_matchWord.Text" xml:space="preserve">
+    <value>Match word</value>
+  </data>
+  <data name="checkBox_matchWord.ToolTip" xml:space="preserve">
+    <value>Use match word in search
+(Use this for MAME detects.)</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchWord.Name" xml:space="preserve">
+    <value>checkBox_matchWord</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchWord.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_matchWord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_deleteOldDetected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 183</value>
+  </data>
+  <data name="checkBox_deleteOldDetected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 50</value>
+  </data>
+  <data name="checkBox_deleteOldDetected.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBox_deleteOldDetected.Text" xml:space="preserve">
+    <value>Clear old detect files from rom (i.e. clear old images, info files...). No file will be deleted, only the detect info.</value>
+  </data>
+  <data name="checkBox_deleteOldDetected.ToolTip" xml:space="preserve">
+    <value>Clear the old related files associated with roms for
+this information container.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_deleteOldDetected.Name" xml:space="preserve">
+    <value>checkBox_deleteOldDetected</value>
+  </data>
+  <data name="&gt;&gt;checkBox_deleteOldDetected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_deleteOldDetected.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_deleteOldDetected.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="progressBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 569</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 23</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="progressBar1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_status.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 553</value>
+  </data>
+  <data name="label_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 13</value>
+  </data>
+  <data name="label_status.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label_status.Text" xml:space="preserve">
+    <value>Click start to begain.</value>
+  </data>
+  <data name="label_status.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_status.Name" xml:space="preserve">
+    <value>label_status</value>
+  </data>
+  <data name="&gt;&gt;label_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_status.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label_status.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <data name="checkBox_oneFilePerRom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_oneFilePerRom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 152</value>
+  </data>
+  <data name="checkBox_oneFilePerRom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="checkBox_oneFilePerRom.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="checkBox_oneFilePerRom.Text" xml:space="preserve">
+    <value>One file per rom.</value>
+  </data>
+  <data name="checkBox_oneFilePerRom.ToolTip" xml:space="preserve">
+    <value>This will force to assign only one detected file
+to matched rom even the rom matched more
+than one file.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_oneFilePerRom.Name" xml:space="preserve">
+    <value>checkBox_oneFilePerRom</value>
+  </data>
+  <data name="&gt;&gt;checkBox_oneFilePerRom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_oneFilePerRom.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;checkBox_oneFilePerRom.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 152</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 17</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.Text" xml:space="preserve">
+    <value>Don't assign same file to more than one rom.</value>
+  </data>
+  <data name="checkBox_dontAllowMoreThanOneFile.ToolTip" xml:space="preserve">
+    <value>If enabled, once a file detected and matched a rom,
+this file will be removed from the detected files list.
+This mean (for example) if we have 2 roms and
+one file match the both roms, the first rom will
+take the file and then detected file removed and
+won't be used again.
+
+This option may increase detection speed.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_dontAllowMoreThanOneFile.Name" xml:space="preserve">
+    <value>checkBox_dontAllowMoreThanOneFile</value>
+  </data>
+  <data name="&gt;&gt;checkBox_dontAllowMoreThanOneFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_dontAllowMoreThanOneFile.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;checkBox_dontAllowMoreThanOneFile.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 33</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="button5.ToolTip" xml:space="preserve">
+    <value>Click to reset the extensions to defaults.</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 183</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 17</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.Text" xml:space="preserve">
+    <value>&amp;Use rom name instead of rom file name</value>
+  </data>
+  <data name="checkBox_useRomNameInstead.ToolTip" xml:space="preserve">
+    <value>The search engine look for matched files using the
+rom file name, enable this if you want to use rom
+name instead.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_useRomNameInstead.Name" xml:space="preserve">
+    <value>checkBox_useRomNameInstead</value>
+  </data>
+  <data name="&gt;&gt;checkBox_useRomNameInstead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_useRomNameInstead.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox_useRomNameInstead.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>214, 17</value>
+  </metadata>
+  <data name="checkBox_reverse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_reverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 129</value>
+  </data>
+  <data name="checkBox_reverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="checkBox_reverse.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="checkBox_reverse.Text" xml:space="preserve">
+    <value>Reverse arrays</value>
+  </data>
+  <data name="checkBox_reverse.ToolTip" xml:space="preserve">
+    <value>If enabled, the search files array will be sorted Z to A
+Otherwise arrays will be sorted normally A to Z (default)
+
+This may help detect more files in some cases.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_reverse.Name" xml:space="preserve">
+    <value>checkBox_reverse</value>
+  </data>
+  <data name="&gt;&gt;checkBox_reverse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_reverse.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;checkBox_reverse.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.Text" xml:space="preserve">
+    <value>Rom in file</value>
+  </data>
+  <data name="radioButton_searchmode_rominfile.ToolTip" xml:space="preserve">
+    <value>Force the search mode: rom in file which means
+the rom name/filename searched inside the file name.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_rominfile.Name" xml:space="preserve">
+    <value>radioButton_searchmode_rominfile</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_rominfile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_rominfile.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_rominfile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.Text" xml:space="preserve">
+    <value>File in rom</value>
+  </data>
+  <data name="radioButton_searchmode_fileinrom.ToolTip" xml:space="preserve">
+    <value>Force the search mode: file in rom which means
+the file name searched inside the rom name/filename.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_fileinrom.Name" xml:space="preserve">
+    <value>radioButton_searchmode_fileinrom</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_fileinrom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_fileinrom.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_fileinrom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButton_searchmode_both.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_searchmode_both.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="radioButton_searchmode_both.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="radioButton_searchmode_both.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="radioButton_searchmode_both.Text" xml:space="preserve">
+    <value>Auto (recommended)</value>
+  </data>
+  <data name="radioButton_searchmode_both.ToolTip" xml:space="preserve">
+    <value>Automatically determines the search mode.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_both.Name" xml:space="preserve">
+    <value>radioButton_searchmode_both</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_both.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_both.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radioButton_searchmode_both.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_startWith.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_startWith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="radioButton_startWith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="radioButton_startWith.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="radioButton_startWith.Text" xml:space="preserve">
+    <value>Start with</value>
+  </data>
+  <data name="radioButton_startWith.ToolTip" xml:space="preserve">
+    <value>Use start with type when searching text.
+i.e. the target name should start with search name.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_startWith.Name" xml:space="preserve">
+    <value>radioButton_startWith</value>
+  </data>
+  <data name="&gt;&gt;radioButton_startWith.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_startWith.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_startWith.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_endwith.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_endwith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="radioButton_endwith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="radioButton_endwith.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="radioButton_endwith.Text" xml:space="preserve">
+    <value>End with</value>
+  </data>
+  <data name="radioButton_endwith.ToolTip" xml:space="preserve">
+    <value>Use end with type when searching text.
+i.e. the target name should ends with search name.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_endwith.Name" xml:space="preserve">
+    <value>radioButton_endwith</value>
+  </data>
+  <data name="&gt;&gt;radioButton_endwith.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_endwith.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_endwith.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_contains.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_contains.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="radioButton_contains.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="radioButton_contains.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radioButton_contains.Text" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="radioButton_contains.ToolTip" xml:space="preserve">
+    <value>Use contains type when searching text.
+i.e. the target name should contain search name
+anywhere.</value>
+  </data>
+  <data name="&gt;&gt;radioButton_contains.Name" xml:space="preserve">
+    <value>radioButton_contains</value>
+  </data>
+  <data name="&gt;&gt;radioButton_contains.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_contains.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;radioButton_contains.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_removeSymbols.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_removeSymbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 129</value>
+  </data>
+  <data name="checkBox_removeSymbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 17</value>
+  </data>
+  <data name="checkBox_removeSymbols.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="checkBox_removeSymbols.Text" xml:space="preserve">
+    <value>Remove symboles from names ('-','!' ,...etc)</value>
+  </data>
+  <data name="checkBox_removeSymbols.ToolTip" xml:space="preserve">
+    <value>Remove symbols from rom file names
+i.e. [U], [E], [!]....</value>
+  </data>
+  <data name="&gt;&gt;checkBox_removeSymbols.Name" xml:space="preserve">
+    <value>checkBox_removeSymbols</value>
+  </data>
+  <data name="&gt;&gt;checkBox_removeSymbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_removeSymbols.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;checkBox_removeSymbols.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 17</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.Text" xml:space="preserve">
+    <value>Remove these specified symbols or words (split with ','):</value>
+  </data>
+  <data name="checkBox_remove_specified_symbols.ToolTip" xml:space="preserve">
+    <value>If set. EO will remove the symboles entered in the 
+text box when comparing.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_remove_specified_symbols.Name" xml:space="preserve">
+    <value>checkBox_remove_specified_symbols</value>
+  </data>
+  <data name="&gt;&gt;checkBox_remove_specified_symbols.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_remove_specified_symbols.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;checkBox_remove_specified_symbols.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 90</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 23</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="button6.ToolTip" xml:space="preserve">
+    <value>Click to reset the extensions to defaults.</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 192</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 87</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBox2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 192</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 87</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Text search type</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox_symbols_to_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="textBox_symbols_to_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 20</value>
+  </data>
+  <data name="textBox_symbols_to_remove.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="textBox_symbols_to_remove.Text" xml:space="preserve">
+    <value>(,),[,]</value>
+  </data>
+  <data name="&gt;&gt;textBox_symbols_to_remove.Name" xml:space="preserve">
+    <value>textBox_symbols_to_remove</value>
+  </data>
+  <data name="&gt;&gt;textBox_symbols_to_remove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_symbols_to_remove.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;textBox_symbols_to_remove.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox_advance_settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 257</value>
+  </data>
+  <data name="groupBox_advance_settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 287</value>
+  </data>
+  <data name="groupBox_advance_settings.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="groupBox_advance_settings.Text" xml:space="preserve">
+    <value>Advanced settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox_advance_settings.Name" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox_advance_settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_advance_settings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_advance_settings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 192</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 87</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Word options</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>groupBox_advance_settings</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 236</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Show advanced settings</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 70</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 99</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton_folder_folder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_folder_folder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 19</value>
+  </data>
+  <data name="radioButton_folder_folder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 17</value>
+  </data>
+  <data name="radioButton_folder_folder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButton_folder_folder.Text" xml:space="preserve">
+    <value>Folder by folder (slower, recommended)</value>
+  </data>
+  <data name="radioButton_folder_folder.ToolTip" xml:space="preserve">
+    <value>In this mode, EO will repeat the search process folder
+by folder, as arranged in the list.
+This mode is slower since it will repeat the process...
+But the detected files will be ordered as the list, for 
+example, file 1 from folder 1 will be the first image
+for a game, the second image will be file 2 from from 
+folder 2.... etc</value>
+  </data>
+  <data name="&gt;&gt;radioButton_folder_folder.Name" xml:space="preserve">
+    <value>radioButton_folder_folder</value>
+  </data>
+  <data name="&gt;&gt;radioButton_folder_folder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_folder_folder.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_folder_folder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_mode_default.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_mode_default.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="radioButton_mode_default.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="radioButton_mode_default.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButton_mode_default.Text" xml:space="preserve">
+    <value>Random (faster)</value>
+  </data>
+  <data name="radioButton_mode_default.ToolTip" xml:space="preserve">
+    <value>In this mode, EO will collect all the files from all the folders
+listed randomlly then starting the comparing process.
+This is faster, but detected files may not in order as the 
+in the list.
+For example, file 1 from folder 2 will be the first image
+for a game, the second image will be file 2 from from 
+folder 5.... etc</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mode_default.Name" xml:space="preserve">
+    <value>radioButton_mode_default</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mode_default.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mode_default.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;radioButton_mode_default.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 128</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 42</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>491, 604</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Detect</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_Detect</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

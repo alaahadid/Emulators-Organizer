@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_Emulators_StretchToFit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox_Emulators_StretchToFit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="checkBox_Emulators_StretchToFit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 17</value>
+  </data>
+  <data name="checkBox_Emulators_StretchToFit.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_Emulators_StretchToFit.Text" xml:space="preserve">
+    <value>&amp;Stretch emulator icon to fit thumbnail size</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Emulators_StretchToFit.Name" xml:space="preserve">
+    <value>checkBox_Emulators_StretchToFit</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Emulators_StretchToFit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Emulators_StretchToFit.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_Emulators_StretchToFit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_roms_ClearFilesAfterDrag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_roms_ClearFilesAfterDrag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="checkBox_roms_ClearFilesAfterDrag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 17</value>
+  </data>
+  <data name="checkBox_roms_ClearFilesAfterDrag.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBox_roms_ClearFilesAfterDrag.Text" xml:space="preserve">
+    <value>&amp;Delete roms that draged out roms list and the files no longer exist.</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="checkBox_roms_ClearFilesAfterDrag.ToolTip" xml:space="preserve">
+    <value>This option is useful when you drag roms out of the roms
+list, and the drag operation may move the rom files.
+If this option activated, the program will perform a check
+to the dragged roms and look for the missing rom files.
+If a rom file is no longer exist, the rom get deleted.
+If this option is disables, the roms will not effected even 
+if the file is no longer exist. This keep rom info and you
+may want to relocate the rom file later using rom properties
+window.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_roms_ClearFilesAfterDrag.Name" xml:space="preserve">
+    <value>checkBox_roms_ClearFilesAfterDrag</value>
+  </data>
+  <data name="&gt;&gt;checkBox_roms_ClearFilesAfterDrag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_roms_ClearFilesAfterDrag.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_roms_ClearFilesAfterDrag.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 17</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.Text" xml:space="preserve">
+    <value>&amp;Double-click to active selection (console or consoles group)</value>
+  </data>
+  <data name="checkBox_consolesBrowser_doubleClick.ToolTip" xml:space="preserve">
+    <value>If enabled, you'll need to double-click on console or
+consoles group to activate</value>
+  </data>
+  <data name="&gt;&gt;checkBox_consolesBrowser_doubleClick.Name" xml:space="preserve">
+    <value>checkBox_consolesBrowser_doubleClick</value>
+  </data>
+  <data name="&gt;&gt;checkBox_consolesBrowser_doubleClick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_consolesBrowser_doubleClick.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;checkBox_consolesBrowser_doubleClick.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 17</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.Text" xml:space="preserve">
+    <value>Show su&amp;bitems tooltip when the subitem's text is not fully visible.</value>
+  </data>
+  <data name="checkBox_showSubItmesToolTip.ToolTip" xml:space="preserve">
+    <value>If set, the listview will show a tooltip for the subitem
+that not show all it's text. The tooltip will help see
+the subitem text without the need to resize column.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showSubItmesToolTip.Name" xml:space="preserve">
+    <value>checkBox_showSubItmesToolTip</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showSubItmesToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showSubItmesToolTip.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showSubItmesToolTip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 17</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.Text" xml:space="preserve">
+    <value>&amp;Player stops on tab selection change.</value>
+  </data>
+  <data name="checkBox_playerStopOnTabChange.ToolTip" xml:space="preserve">
+    <value>If enabled, all media player tabs will stop playing when
+you change the tab. Otherwise the media keep play
+when you change that tab.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_playerStopOnTabChange.Name" xml:space="preserve">
+    <value>checkBox_playerStopOnTabChange</value>
+  </data>
+  <data name="&gt;&gt;checkBox_playerStopOnTabChange.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_playerStopOnTabChange.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox_playerStopOnTabChange.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.Text" xml:space="preserve">
+    <value>Show &amp;list on mouse click.</value>
+  </data>
+  <data name="checkBox_ShowListOnMouseClick.ToolTip" xml:space="preserve">
+    <value>If enabled, all media player tabs will switch into playlist
+when you click on that tab while playing.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_ShowListOnMouseClick.Name" xml:space="preserve">
+    <value>checkBox_ShowListOnMouseClick</value>
+  </data>
+  <data name="&gt;&gt;checkBox_ShowListOnMouseClick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_ShowListOnMouseClick.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;checkBox_ShowListOnMouseClick.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 17</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.Text" xml:space="preserve">
+    <value>Show &amp;close buttons on tabs</value>
+  </data>
+  <data name="checkBox_showCloseButtonsOnTabs.ToolTip" xml:space="preserve">
+    <value>Indicates if the tab should havea  close button
+next to the tab title (in the tabs section)</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showCloseButtonsOnTabs.Name" xml:space="preserve">
+    <value>checkBox_showCloseButtonsOnTabs</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showCloseButtonsOnTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showCloseButtonsOnTabs.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showCloseButtonsOnTabs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 17</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.Text" xml:space="preserve">
+    <value>Close buttons always visible on tabs</value>
+  </data>
+  <data name="checkBox_closeButtonsAlwaysVisibleOnTabs.ToolTip" xml:space="preserve">
+    <value>Indicates if the close button (if visible) on tab
+is always visible or not.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_closeButtonsAlwaysVisibleOnTabs.Name" xml:space="preserve">
+    <value>checkBox_closeButtonsAlwaysVisibleOnTabs</value>
+  </data>
+  <data name="&gt;&gt;checkBox_closeButtonsAlwaysVisibleOnTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_closeButtonsAlwaysVisibleOnTabs.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_closeButtonsAlwaysVisibleOnTabs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.Text" xml:space="preserve">
+    <value>Show icons on tabs</value>
+  </data>
+  <data name="checkBox_showIconsOnTabs.ToolTip" xml:space="preserve">
+    <value>Indicates if the icons should be visible on each
+tab</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showIconsOnTabs.Name" xml:space="preserve">
+    <value>checkBox_showIconsOnTabs</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showIconsOnTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showIconsOnTabs.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox_showIconsOnTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 40</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Emulators Browser</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_tooltip_thumb_show_rating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 160</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.Text" xml:space="preserve">
+    <value>Show rating.</value>
+  </data>
+  <data name="checkBox_tooltip_thumb_show_rating.ToolTip" xml:space="preserve">
+    <value>If set, rating will be displayed on the tooltip.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tooltip_thumb_show_rating.Name" xml:space="preserve">
+    <value>checkBox_tooltip_thumb_show_rating</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tooltip_thumb_show_rating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tooltip_thumb_show_rating.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tooltip_thumb_show_rating.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 137</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.Text" xml:space="preserve">
+    <value>Show all rom info.</value>
+  </data>
+  <data name="checkBox_tootlip_thumbmode_show_all.ToolTip" xml:space="preserve">
+    <value>If set: all rom info will be shown such as rom name,
+parent console and rom path.
+Otherwise, only rom name will be shown.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tootlip_thumbmode_show_all.Name" xml:space="preserve">
+    <value>checkBox_tootlip_thumbmode_show_all</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tootlip_thumbmode_show_all.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tootlip_thumbmode_show_all.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_tootlip_thumbmode_show_all.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 114</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 17</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.Text" xml:space="preserve">
+    <value>Show quick rom info on thumnails mode.</value>
+  </data>
+  <data name="checkBox_show_tooptip_in_thumb_mode.ToolTip" xml:space="preserve">
+    <value>If set, the roms browser control will show quick info
+about highlighted rom in the bottom.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_show_tooptip_in_thumb_mode.Name" xml:space="preserve">
+    <value>checkBox_show_tooptip_in_thumb_mode</value>
+  </data>
+  <data name="&gt;&gt;checkBox_show_tooptip_in_thumb_mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_show_tooptip_in_thumb_mode.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_show_tooptip_in_thumb_mode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 90</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 88</value>
+  </data>
+  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
+    <value>numericUpDown1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 90</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Auto thumbanails cycle interval:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBox_thumbsAutoCycle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_thumbsAutoCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="checkBox_thumbsAutoCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 17</value>
+  </data>
+  <data name="checkBox_thumbsAutoCycle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBox_thumbsAutoCycle.Text" xml:space="preserve">
+    <value>Auto cycle selected rom thumbnails in thumbnails mode.</value>
+  </data>
+  <data name="&gt;&gt;checkBox_thumbsAutoCycle.Name" xml:space="preserve">
+    <value>checkBox_thumbsAutoCycle</value>
+  </data>
+  <data name="&gt;&gt;checkBox_thumbsAutoCycle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_thumbsAutoCycle.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_thumbsAutoCycle.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 96</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 185</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Roms Browser</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 41</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Consoles Browser</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 379</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 64</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Media player (sound and video) tab</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 287</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 86</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Tabs (general)</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 452</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingsControlVisual</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>EmulatorsOrganizer.ISettingsControl, EmulatorsOrganizer, Version=6.4.350.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

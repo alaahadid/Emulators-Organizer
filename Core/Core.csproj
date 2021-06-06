@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99D4A9AF-B86A-41FF-9A06-C3063E8479E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmulatorsOrganizer.Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>bin\Debug\Core.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Release x86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML">
+      <HintPath>..\libraries\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleSearchAPI">
+      <HintPath>..\libraries\GoogleSearchAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MMB">
+      <HintPath>..\libraries\MMB.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\libraries\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\ProgressArgs.cs" />
+    <Compile Include="Args\RomFinishedPlayArgs.cs" />
+    <Compile Include="Args\RomPropertiesChangedArgs.cs" />
+    <Compile Include="Args\SearchRequestArgs.cs" />
+    <Compile Include="Columns\ColumnItem.cs" />
+    <Compile Include="Commandlines\CommandlinesUsageMode.cs" />
+    <Compile Include="Commandlines\CommandLinesXML.cs" />
+    <Compile Include="Commandlines\CommandlinesEncoder.cs" />
+    <Compile Include="Commandlines\CommandlinesGroup.cs" />
+    <Compile Include="Commandlines\Commandline.cs" />
+    <Compile Include="Console\ConsoleFile.cs" />
+    <Compile Include="Console\ConsoleGroupsCollection.cs" />
+    <Compile Include="Console\ConsolesComparer.cs" />
+    <Compile Include="Console\ConsolesGroup.cs" />
+    <Compile Include="Console\Console.cs" />
+    <Compile Include="Console\ConsolesCollection.cs" />
+    <Compile Include="Console\ConsoleGroupsComparer.cs" />
+    <Compile Include="DatabasesControls\DatabaseFileControl_EmulationStation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_EmulationStation.Designer.cs">
+      <DependentUpon>DatabaseFileControl_EmulationStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_MameGenre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_MameGenre.Designer.cs">
+      <DependentUpon>DatabaseFileControl_MameGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_CSVNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_CSVNew.Designer.cs">
+      <DependentUpon>DatabaseFileControl_CSVNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_Hyperlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_Hyperlist.Designer.cs">
+      <DependentUpon>DatabaseFileControl_Hyperlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_MameDat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_MameDat.Designer.cs">
+      <DependentUpon>DatabaseFileControl_MameDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_Catveren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_Catveren.Designer.cs">
+      <DependentUpon>DatabaseFileControl_Catveren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_NoIntro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DatabasesControls\DatabaseFileControl_NoIntro.Designer.cs">
+      <DependentUpon>DatabaseFileControl_NoIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Databases\CompareMode.cs" />
+    <Compile Include="Databases\DatabaseFile.cs" />
+    <Compile Include="Databases\DatabaseFilesManager.cs" />
+    <Compile Include="Databases\DatabaseInfoAttribute.cs" />
+    <Compile Include="Databases\DatabaseVisibiltyAttribute.cs" />
+    <Compile Include="Databases\DBEntry.cs" />
+    <Compile Include="Databases\ForceNesDatabaseAttribute.cs" />
+    <Compile Include="Databases\PerfectMatchFile.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_Catver.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_CSV_INI.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_CSV_NEW.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_EmulationStationXML.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_ExcelSheet.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_HyperListXML.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_MameDat.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_MameGenre.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_MameXML.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_NesCart.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_NoIntro.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_SMS.cs" />
+    <Compile Include="Databases\Types\DatabaseFile_WHDLoad.cs" />
+    <Compile Include="Enums\ProgramStartMode.cs" />
+    <Compile Include="Forms\FormChildPick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChildPick.Designer.cs">
+      <DependentUpon>FormChildPick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_EmulationStationExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_EmulationStationExportOptions.Designer.cs">
+      <DependentUpon>Frm_EmulationStationExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_HyperlistExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_HyperlistExportOptions.Designer.cs">
+      <DependentUpon>Frm_HyperlistExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_CSVNewExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_CSVNewExport.Designer.cs">
+      <DependentUpon>Frm_CSVNewExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoContainer\ItemTypes\InformationContainerItemReviewScore.cs" />
+    <Compile Include="InfoContainer\Other\ScoreField.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerReviewScore.cs" />
+    <Compile Include="Interfaces\IStylable.cs" />
+    <Compile Include="Others\Crc32.cs" />
+    <Compile Include="Emulator\EmulatorParentConsole.cs" />
+    <Compile Include="Enums\NumberSearchCondition.cs" />
+    <Compile Include="Enums\TextSearchCondition.cs" />
+    <Compile Include="Filter\Filter.cs" />
+    <Compile Include="Forms\Frm_CsvExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_CsvExportOptions.designer.cs">
+      <DependentUpon>Frm_CsvExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDat.designer.cs">
+      <DependentUpon>Frm_NoIntroDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDatImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDatImport.designer.cs">
+      <DependentUpon>Frm_NoIntroDatImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_SMSExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_SMSExportOptions.designer.cs">
+      <DependentUpon>Frm_SMSExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Google\GoogleImageSearcher.cs" />
+    <Compile Include="InfoContainer\InformationContainer.cs" />
+    <Compile Include="InfoContainer\Attrs\InformationContainerDescription.cs" />
+    <Compile Include="InfoContainer\InformationContainerDelegates.cs" />
+    <Compile Include="InfoContainer\InformationContainerItem.cs" />
+    <Compile Include="InfoContainer\InformationContainerTabsPanel.cs" />
+    <Compile Include="InfoContainer\ItemTypes\InformationContainerItemFiles.cs" />
+    <Compile Include="InfoContainer\ItemTypes\InformationContainerItemLinks.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerFiles.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerImage.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerInfoText.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerLinks.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerMedia.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerPDF.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerRomInfo.cs" />
+    <Compile Include="InfoContainer\Types\InformationContainerYoutubeVideo.cs" />
+    <Compile Include="MobyGames\MobyGamesGame.cs" />
+    <Compile Include="MobyGames\MobyGamesSearcher.cs" />
+    <Compile Include="Others\ZLIP\Adler32.cs" />
+    <Compile Include="Others\ZLIP\Deflate.cs" />
+    <Compile Include="Others\ZLIP\InfBlocks.cs" />
+    <Compile Include="Others\ZLIP\InfCodes.cs" />
+    <Compile Include="Others\ZLIP\Inflate.cs" />
+    <Compile Include="Others\ZLIP\InfTree.cs" />
+    <Compile Include="Others\ZLIP\StaticTree.cs" />
+    <Compile Include="Others\ZLIP\SupportClass.cs" />
+    <Compile Include="Others\ZLIP\Tree.cs" />
+    <Compile Include="Others\ZLIP\ZInputStream.cs" />
+    <Compile Include="Others\ZLIP\Zlib.cs" />
+    <Compile Include="Others\ZLIP\ZOutputStream.cs" />
+    <Compile Include="Others\ZLIP\ZStream.cs" />
+    <Compile Include="Others\ZLIP\ZStreamException.cs" />
+    <Compile Include="Profile\DefaultProfileSettings.cs" />
+    <Compile Include="Emulator\EmulatorsCollection.cs" />
+    <Compile Include="Emulator\Emulator.cs" />
+    <Compile Include="Emulator\EmulatorsComparer.cs" />
+    <Compile Include="Commandlines\ICommandline.cs" />
+    <Compile Include="Commandlines\Parameter.cs" />
+    <Compile Include="Forms\Form_ExtractArchive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ExtractArchive.Designer.cs">
+      <DependentUpon>Form_ExtractArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_EnterPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_EnterPassword.Designer.cs">
+      <DependentUpon>Form_EnterPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_ArchiveFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_ArchiveFiles.designer.cs">
+      <DependentUpon>Frm_ArchiveFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Playlist\PlaylistGroupsComparer.cs" />
+    <Compile Include="Args\RefreshEmulatorsArgs.cs" />
+    <Compile Include="Args\RomShowedArgs.cs" />
+    <Compile Include="DataInfo\RomData.cs" />
+    <Compile Include="DataInfo\RomDataInfoItem.cs" />
+    <Compile Include="Enums\SearchMode.cs" />
+    <Compile Include="DataInfo\RomDataType.cs" />
+    <Compile Include="Others\ProgramProperties.cs" />
+    <Compile Include="Others\PropertyStruct.cs" />
+    <Compile Include="Rom\ProgramUsageMode.cs" />
+    <Compile Include="Rom\RomEmulatorParentCommandlines.cs" />
+    <Compile Include="Others\SeparateItem.cs" />
+    <Compile Include="Styles\EOStyle.cs" />
+    <Compile Include="Others\HelperTools.cs" />
+    <Compile Include="Interfaces\IEOElement.cs" />
+    <Compile Include="Playlist\PlaylistGroupsCollection.cs" />
+    <Compile Include="Playlist\PlaylistsComparer.cs" />
+    <Compile Include="Playlist\PlaylistsCollection.cs" />
+    <Compile Include="Playlist\PlaylistsGroup.cs" />
+    <Compile Include="Playlist\Playlist.cs" />
+    <Compile Include="Profile\ProfileSaveLoadStatus.cs" />
+    <Compile Include="Profile\Profile.cs" />
+    <Compile Include="Profile\ProfileManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rom\Rom.cs" />
+    <Compile Include="Rom\RomsCollection.cs" />
+    <Compile Include="Rom\RomsComparer.cs" />
+    <Compile Include="Profile\SelectionType.cs" />
+    <Compile Include="Others\TextComparer.cs" />
+    <Compile Include="WinItems\TreeNodePlaylist.cs" />
+    <Compile Include="WinItems\TreeNodePlaylistsGroup.cs" />
+    <Compile Include="WinItems\EOTreeNode.cs" />
+    <Compile Include="WinItems\TreeNodeConsole.cs" />
+    <Compile Include="WinItems\TreeNodeConsoleCategory.cs" />
+    <Compile Include="WinItems\TreeNodeConsolesGroup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MTC\MTC.csproj">
+      <Project>{f496c3fc-acd2-4b39-8747-fdb8b67739bc}</Project>
+      <Name>MTC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{43b1b977-1b03-49b8-922b-471342f560a5}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_EmulationStation.resx">
+      <DependentUpon>DatabaseFileControl_EmulationStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_MameGenre.resx">
+      <DependentUpon>DatabaseFileControl_MameGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_CSVNew.resx">
+      <DependentUpon>DatabaseFileControl_CSVNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_Hyperlist.resx">
+      <DependentUpon>DatabaseFileControl_Hyperlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_MameDat.resx">
+      <DependentUpon>DatabaseFileControl_MameDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_Catveren.resx">
+      <DependentUpon>DatabaseFileControl_Catveren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatabasesControls\DatabaseFileControl_NoIntro.resx">
+      <DependentUpon>DatabaseFileControl_NoIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChildPick.resx">
+      <DependentUpon>FormChildPick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_EnterPassword.resx">
+      <DependentUpon>Form_EnterPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ExtractArchive.resx">
+      <DependentUpon>Form_ExtractArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_ArchiveFiles.resx">
+      <DependentUpon>Frm_ArchiveFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_CsvExportOptions.resx">
+      <DependentUpon>Frm_CsvExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_EmulationStationExportOptions.resx">
+      <DependentUpon>Frm_EmulationStationExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDat.resx">
+      <DependentUpon>Frm_NoIntroDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDatImport.resx">
+      <DependentUpon>Frm_NoIntroDatImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SMSExportOptions.resx">
+      <DependentUpon>Frm_SMSExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_HyperlistExportOptions.resx">
+      <DependentUpon>Frm_HyperlistExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_CSVNewExport.resx">
+      <DependentUpon>Frm_CSVNewExport.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Others\ZLIP\history.txt" />
+    <Content Include="Others\ZLIP\license.txt" />
+    <Content Include="Others\ZLIP\readme.txt" />
+    <Content Include="Profile\EOP Format Specification.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

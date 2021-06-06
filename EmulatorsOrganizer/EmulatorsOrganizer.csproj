@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52FDD228-3E9C-44A7-A5FB-B82A1FCE7330}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmulatorsOrganizer</RootNamespace>
+    <AssemblyName>EmulatorsOrganizer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Releases\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Releases\Release x86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Release x86\</OutputPath>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\EO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MMB">
+      <HintPath>..\..\..\ManagedMessageBoxDemo\release\MMB dll (x86)\MMB.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Form_StartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_StartUp.Designer.cs">
+      <DependentUpon>Form_StartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Settings.Designer.cs">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_About.Designer.cs">
+      <DependentUpon>Form_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlStyle.Designer.cs">
+      <DependentUpon>SettingsControlStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlGoogleImageSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlGoogleImageSearch.Designer.cs">
+      <DependentUpon>SettingsControlGoogleImageSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlGeneral.Designer.cs">
+      <DependentUpon>SettingsControlGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\ISettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\ISettingsControl.Designer.cs">
+      <DependentUpon>ISettingsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlTempFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlTempFolder.Designer.cs">
+      <DependentUpon>SettingsControlTempFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlVisual.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControls\SettingsControlVisual.Designer.cs">
+      <DependentUpon>SettingsControlVisual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraceListners\MainWindowStatusTraceListner.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Form_About.resx">
+      <DependentUpon>Form_About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Settings.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_StartUp.resx">
+      <DependentUpon>Form_StartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\SettingsControlGeneral.resx">
+      <DependentUpon>SettingsControlGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\SettingsControlGoogleImageSearch.resx">
+      <DependentUpon>SettingsControlGoogleImageSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\ISettingsControl.resx">
+      <DependentUpon>ISettingsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\SettingsControlStyle.resx">
+      <DependentUpon>SettingsControlStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\SettingsControlTempFolder.resx">
+      <DependentUpon>SettingsControlTempFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsControls\SettingsControlVisual.resx">
+      <DependentUpon>SettingsControlVisual.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MTC\MTC.csproj">
+      <Project>{f496c3fc-acd2-4b39-8747-fdb8b67739bc}</Project>
+      <Name>MTC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{99d4a9af-b86a-41ff-9a06-c3063e8479e1}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUI\GUI.csproj">
+      <Project>{98DF1B1A-7B32-4357-AF7A-ADEF3A257E92}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MLV\MLV.csproj">
+      <Project>{cb876583-d5f9-4398-b399-fbe6d4aa8a51}</Project>
+      <Name>MLV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{43b1b977-1b03-49b8-922b-471342f560a5}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textfield_rename.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_detail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\properties.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_cascade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_lowercase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_letterspacing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_side_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_list_bullets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_world.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sourceforge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EO.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal-donate-button.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

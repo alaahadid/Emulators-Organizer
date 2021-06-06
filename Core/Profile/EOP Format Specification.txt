@@ -1,0 +1,156 @@
+﻿Emulators Organizer Project File Specification
+----------------------------------------------
+For format version 1.0
+
+Emulators Organizer Project file contain chunks of data, each chunck starts
+with header. Header is 12 bytes data descripes the data that holds and it's
+size so that the program can skip the data that don't need without the need 
+to read it, all it have to do is to read the header and skip by the size.
+
+Example
+
+-----------------------------
+EOPR chunk
+-----------------------------
+  CONS chunk, for nes console
+-----------------------------
+    ROMD chunk, a rom for nes console
+-----------------------------
+    ROMD chunk, another rom for nes console
+-----------------------------
+......
+.....
+
+-----------------------------
+  CONS chunk, for snes console
+-----------------------------
+    ROMD chunk, a rom for snes console
+-----------------------------
+.......
+
+
+1. Header structure:
+
+The header itself is 12 bytes, arranged as follows for all chunks:
+
+Bytes count  |  Name     |  What is it for
+-------------+-----------+-----------------------------------
+4            | Chunk ID  | 4 ASCII string bytes Descripes the 
+             |           | data chunk type with 4 latters.
+-------------+-----------+-----------------------------------
+4            | Data Size | The data size (without the header)
+             |           | Program can use this to skip data.
+             |           | 32 bit integar, stored with high 
+	     |           | byte first.
+-------------+-----------+-----------------------------------
+4            |           | Used by some headers. Not useful
+             |           | if the program only want to skip
+	     |           | the chunk.
+-------------+-----------+-----------------------------------
+
+After the header the chunk data follows as it is descriped for each chunk.
+
+2. Data structure
+
+Depending on the data chunk we are dealing with, the data structure layout
+may be different from one chunk to other. Normally the data come compressed
+with ZLIP.
+
+3. Chunks
+
+Here are the data chunks that used for this version. You can create your own
+chunk and include it in the file, the only important thing is to give it working
+header so that the program would be able to skip it.
+
+- Emulators Organizer Profile chunk
+-----------------------------------
+
+This chunk stores the EO profile data (without roms) itself. IT MUST BE the first
+data in the profile. EO will read first 12 bytes and expect it to be EOPR chunk header,
+if not, the file will not recognized as EOP file.
+
+The chunk structure with header is like this
+
+Bytes count  | Value     |  What is it for
+-------------+-----------+------------------------
+4            | EOPR      | The id of the header
+4            | 32bit int | The size of the profile
+4            | ___       | Reserved for future use
+X= size      | data bytes| The profile data compressed
+
+After the header, follows the profile data COMPRESSED with ZLIP using normal compression
+method. To get the data, simply use the header size info to obtain the bytes count to read
+then fetch them into a buffer, after that use ZLIP library to decompress that data. 
+The output data is the profile as-it-is serialized. You'll need 
+System.Runtime.Serialization.Formatters.Binary.BinaryFormatter to deserialize it.
+
+- Console quick info chunk
+--------------------------
+
+This chunk descripes 2 key information about a console: how many roms it contain
+and the size of 'em in the profile file. This chunk can be anywhere in the profile 
+file.
+It is only 12+8 = 20 bytes length !
+
+IMPORTANT: the rom chunks of roms that belong to the console must follow after this chunk.
+
+The structure with header is like this
+
+Bytes count  | Value     |  What is it for
+-------------+-----------+---------------------------
+4            | CONS      | The id of the header
+-------------+-----------+---------------------------
+4            | 32bit int | Total size of all roms 
+             | high-byte | with headers. program
+	     | first     | can skip all console data
+	     |           | along with roms with this.
+-------------+-----------+---------------------------
+4            | 32bit int | The total roms count that 
+             | high-byte | this console hold. Or how
+	     | first     | many rom chunk after this
+	     |           | header that belong to this
+	     |           | console.
+-------------+-----------+---------------------------
+8            | String ID | 8 ASCII string bytes the
+             | ASCII ENC | original id of the conosle
+	     |           | as it is recognized in the
+	     |           | profile.
+-------------+-----------+---------------------------
+
+After this chunk, roms that belong to the console MUST follow if any.
+
+- Rom data chunk
+----------------
+
+This chunk contain the rom data compressed. 
+
+The chunk structure with header is like this
+
+Bytes count  | Value     |  What is it for
+-------------+-----------+---------------------------
+4            | ROMD      | The id of the header
+-------------+-----------+---------------------------
+4            | 32bit int | The rom data size compressed
+             | high-byte | including 8 the size of the rom
+	     | first     | id that follows this header.
+-------------+-----------+---------------------------
+4            | _____     | Reserved
+-------------+-----------+---------------------------
+8            | String ID | 8 ASCII string bytes the
+             | ASCII ENC | original id of the rom
+	     |           | as it is recognized in the
+	     |           | profile.
+-------------+-----------+---------------------------
+X= size-8    | DATA BYTES| The rom data compressed
+-------------+-----------+---------------------------
+
+
+After the header, follow 8 bytes, 8 ASCII string bytes the rom id as it is recognized
+in the profile.
+
+After the id, follows the rom data COMPRESSED with ZLIP using normal compression
+method. To get the data, simply use the header size to obtain the bytes count to read
+don't forget to skip 8 for the rom id. Fetch them into a buffer, after that use ZLIP 
+library to decompress that data. 
+The output data is the rom as-it-is serialized. You'll need 
+System.Runtime.Serialization.Formatters.Binary.BinaryFormatter to deserialize it.

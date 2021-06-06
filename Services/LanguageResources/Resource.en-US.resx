@@ -1,0 +1,1676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_No" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>&amp;Ok</value>
+  </data>
+  <data name="Button_Yes" xml:space="preserve">
+    <value>&amp;Yes</value>
+  </data>
+  <data name="Column_FileType" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="Column_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Column_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Column_PlayedTimes" xml:space="preserve">
+    <value>Played times</value>
+  </data>
+  <data name="Column_PlayTime" xml:space="preserve">
+    <value>Play time</value>
+  </data>
+  <data name="Column_Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Column_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Filter_EOP" xml:space="preserve">
+    <value>Emulators Organizer profile (*.eop)|*.eop</value>
+  </data>
+  <data name="Filter_Icon" xml:space="preserve">
+    <value>Icon (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga;*.ico;*.exe)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga;*.ico;*.exe</value>
+  </data>
+  <data name="MessageCaption_DeleteConsole" xml:space="preserve">
+    <value>Delete console</value>
+  </data>
+  <data name="MessageCaption_DeleteConsolesGroup" xml:space="preserve">
+    <value>Delete consoles group</value>
+  </data>
+  <data name="MessageCaption_OpenProfile" xml:space="preserve">
+    <value>Open profile</value>
+  </data>
+  <data name="MessageCaption_SaveProfile" xml:space="preserve">
+    <value>Save profile</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteConsole" xml:space="preserve">
+    <value>Are you sure you want to delete selected console ?
+Warning: deleting console will delete all roms that belong to this console, this mean roms of this console will be deleted from playlists too.</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteConsolesGroup" xml:space="preserve">
+    <value>Are you sure you want to delete selected consoles group ?
+Warning: deleting consoles group will delete all consoles that belong to that group, in result all roms that belong to these consoles will be deleted from playlists too.</value>
+  </data>
+  <data name="Message_CantOpenProfile" xml:space="preserve">
+    <value>Can't open profile</value>
+  </data>
+  <data name="Message_CantSaveProfile" xml:space="preserve">
+    <value>Can't save profile</value>
+  </data>
+  <data name="Message_DoYouWantToSaveProfile" xml:space="preserve">
+    <value>Do you want to save profile first ?</value>
+  </data>
+  <data name="Name_Console" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="Name_ConsolesGroup" xml:space="preserve">
+    <value>Consoles Group</value>
+  </data>
+  <data name="Tab_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Tab_Consoles" xml:space="preserve">
+    <value>Consoles</value>
+  </data>
+  <data name="Tab_Emulators" xml:space="preserve">
+    <value>Emulators</value>
+  </data>
+  <data name="Tab_Filters" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Tab_Playlists" xml:space="preserve">
+    <value>Playlists</value>
+  </data>
+  <data name="Tab_Roms" xml:space="preserve">
+    <value>Roms</value>
+  </data>
+  <data name="Title_BrowseForAnIcon" xml:space="preserve">
+    <value>Browse for icon</value>
+  </data>
+  <data name="Untitled" xml:space="preserve">
+    <value>Untitled</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Column_ParentConsole" xml:space="preserve">
+    <value>Parent console</value>
+  </data>
+  <data name="Description_BrowseForRomsFolder" xml:space="preserve">
+    <value>Browse for folder that contain roms</value>
+  </data>
+  <data name="MessageCaption_AddRoms" xml:space="preserve">
+    <value>Add roms</value>
+  </data>
+  <data name="Message_PleaseSelectConsoleToAddRoms" xml:space="preserve">
+    <value>Please select a console first. Roms can be added to consoles only.</value>
+  </data>
+  <data name="Message_PleaseAddFoldersFirst" xml:space="preserve">
+    <value>Please add folders first.</value>
+  </data>
+  <data name="Status_AddingRoms" xml:space="preserve">
+    <value>Adding roms</value>
+  </data>
+  <data name="MessageCaption_AddRomsFoldersScan" xml:space="preserve">
+    <value>Add roms (folders scan)</value>
+  </data>
+  <data name="Message_Done" xml:space="preserve">
+    <value>Done !</value>
+  </data>
+  <data name="Message_LogFileSavedTo" xml:space="preserve">
+    <value>Log file saved at</value>
+  </data>
+  <data name="Message_AreYouSureYouWantRoStopCurrentProgress" xml:space="preserve">
+    <value>Are you sure you want to stop current progress ?</value>
+  </data>
+  <data name="Filter_Image" xml:space="preserve">
+    <value>Image (*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga)|*.jpg;*.png;*.bmp;*.gif;*.jpeg;*.tiff;*.tga</value>
+  </data>
+  <data name="Title_BrowseForImage" xml:space="preserve">
+    <value>Browse for image</value>
+  </data>
+  <data name="MessageCaption_ConsoleProperties" xml:space="preserve">
+    <value>Console properties</value>
+  </data>
+  <data name="Message_PleaseEnterConsoleNameFirst" xml:space="preserve">
+    <value>Please enter console name first</value>
+  </data>
+  <data name="Message_ThisConsoleNameAlreadyTaken" xml:space="preserve">
+    <value>The console name you entered already taken by another console in this consoles group</value>
+  </data>
+  <data name="Title_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Message_PleaseEnterExtensionsFirst" xml:space="preserve">
+    <value>Please add extensions first</value>
+  </data>
+  <data name="Title_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Title_ListviewStyle" xml:space="preserve">
+    <value>Style: Listview style</value>
+  </data>
+  <data name="ConsolePropertiesDescription_General" xml:space="preserve">
+    <value>Allows to edit the console name, extesnions and other general options.</value>
+  </data>
+  <data name="ConsolePropertiesDescription_Icon" xml:space="preserve">
+    <value>Allows to change console icon.</value>
+  </data>
+  <data name="Title_TabPagesStyle" xml:space="preserve">
+    <value>Style: EO and tab pages style</value>
+  </data>
+  <data name="Title_ListViewDefaultStyle" xml:space="preserve">
+    <value>Style: ListView default style</value>
+  </data>
+  <data name="Title_TabDefaultStyle" xml:space="preserve">
+    <value>Style: EO and tab pages default style</value>
+  </data>
+  <data name="Description_LoadStyle" xml:space="preserve">
+    <value>Load style</value>
+  </data>
+  <data name="Description_SaveStyle" xml:space="preserve">
+    <value>Save style</value>
+  </data>
+  <data name="Filter_Style" xml:space="preserve">
+    <value>Emulators Organizer Style (*.eos)|*.eos</value>
+  </data>
+  <data name="Message_AreYousureYouWantToLoadDefaultStyle" xml:space="preserve">
+    <value>Are you sure you want to load default style from file ? This will be saved directly to settings file replacing old style and can't be undone.</value>
+  </data>
+  <data name="Message_ThisWillSaveAndApplyCurrentStyleToConsoleContinue" xml:space="preserve">
+    <value>This will save and apply current style to console, continue ?</value>
+  </data>
+  <data name="ConsolesGroupPropertiesDescription_General" xml:space="preserve">
+    <value>Allows to edit general consoles group properties such as name.</value>
+  </data>
+  <data name="ConsolesGroupPropertiesDescription_Icon" xml:space="preserve">
+    <value>Allows to edit consoles group icon.</value>
+  </data>
+  <data name="MessageCaption_ConsolesGroupProperties" xml:space="preserve">
+    <value>Consoles group</value>
+  </data>
+  <data name="Message_PleaseEnterConsolesGroupNameFirst" xml:space="preserve">
+    <value>Please enter consoles group name first.</value>
+  </data>
+  <data name="Message_ThisConsolesGroupNameAlreadyTaken" xml:space="preserve">
+    <value>This consoles group name already taken by another group.</value>
+  </data>
+  <data name="Description_ApplyStyleToChildConsoles" xml:space="preserve">
+    <value>Apply style to child consoles</value>
+  </data>
+  <data name="Message_AreYouSureApplyToChildConsoles" xml:space="preserve">
+    <value>Are you sure ? this first will apply style to current consoles group then replace all child consoles with same style, continue ?</value>
+  </data>
+  <data name="Message_ThisWillSaveAndApplyCurrentStyleToConsolesGroupContinue" xml:space="preserve">
+    <value>This will apply current style to consoles group first. Continue ?</value>
+  </data>
+  <data name="Status_LoadingRoms" xml:space="preserve">
+    <value>Loading roms</value>
+  </data>
+  <data name="MessageCaption_DeleteRoms" xml:space="preserve">
+    <value>Delete roms</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteSelectedRoms" xml:space="preserve">
+    <value>Are you sure you want to delete selected roms ?</value>
+  </data>
+  <data name="Status_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Status_ChangingIcon" xml:space="preserve">
+    <value>Changing icon</value>
+  </data>
+  <data name="Status_Console" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="Status_Deleting" xml:space="preserve">
+    <value>Deleting</value>
+  </data>
+  <data name="Status_Selected" xml:space="preserve">
+    <value>selected</value>
+  </data>
+  <data name="MessageCaption_ClearIcon" xml:space="preserve">
+    <value>Clear icon</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToClearIconsForSelectedItems" xml:space="preserve">
+    <value>Are you sure you want to clear icons for selected item(s) ?</value>
+  </data>
+  <data name="Status_ClearingIcon" xml:space="preserve">
+    <value>Clearing icon(s)</value>
+  </data>
+  <data name="Status_RomsSelected" xml:space="preserve">
+    <value>roms selected.</value>
+  </data>
+  <data name="Word_for" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="MessageCaption_RenameRom" xml:space="preserve">
+    <value>Rename rom</value>
+  </data>
+  <data name="Message_PleaseEnterNameFirst" xml:space="preserve">
+    <value>Please enter name first.</value>
+  </data>
+  <data name="Message_ThisRomNameIsAlreadyTaken" xml:space="preserve">
+    <value>This rom name is already taken by another rom in the same console.</value>
+  </data>
+  <data name="Message_UNABLEToRenameRomFile" xml:space="preserve">
+    <value>UNABLE to rename rom file</value>
+  </data>
+  <data name="MessageCaption_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherConsole" xml:space="preserve">
+    <value>This name already taken by another console.</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherConsolesGroup" xml:space="preserve">
+    <value>This name already taken by another consoles group.</value>
+  </data>
+  <data name="Name_PlaylistsGroup" xml:space="preserve">
+    <value>Playlists Group</value>
+  </data>
+  <data name="MessageCaption_DeletePlaylist" xml:space="preserve">
+    <value>Delete playlist</value>
+  </data>
+  <data name="MessageCaption_DeletePlaylistsGroup" xml:space="preserve">
+    <value>Delete playlists group</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeletePlaylist" xml:space="preserve">
+    <value>Are you sure you want to delete selected playlist ? 
+This will remove playlist's link from the roms that associated to this playlist.</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeletePlaylistsGroup" xml:space="preserve">
+    <value>Are you sure you want to delete selected playlists group ?
+Warning!
+Deleting this playlists group will remove all playlist(s) that belong to this group.</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherPlaylist" xml:space="preserve">
+    <value>This name already taken by another playlist.</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherPlaylistsGroup" xml:space="preserve">
+    <value>This name already taken by another playlists group.</value>
+  </data>
+  <data name="Name_Playlist" xml:space="preserve">
+    <value>Palylist</value>
+  </data>
+  <data name="Status_ConsolesGroup" xml:space="preserve">
+    <value>Consoles Group</value>
+  </data>
+  <data name="Status_PlaylistsGroup" xml:space="preserve">
+    <value>Playlists Group</value>
+  </data>
+  <data name="Status_Playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToRemoveSelectedRomsFromPlaylist" xml:space="preserve">
+    <value>Are you sure you want to remove selected rom(s) from playlist</value>
+  </data>
+  <data name="Message_ThisWillNotEffectTheRomsAndOnlyRemoveFromThisPlaylist" xml:space="preserve">
+    <value>This will not effect the rom(s) and only remove from this playlist.</value>
+  </data>
+  <data name="Description_ApplyStyleToChildPlaylists" xml:space="preserve">
+    <value>Apply style to child playlists</value>
+  </data>
+  <data name="MessageCaption_PlaylistsGroupProperties" xml:space="preserve">
+    <value>Playlists group properties</value>
+  </data>
+  <data name="Message_AreYouSureApplyToChildPlaylists" xml:space="preserve">
+    <value>Are you sure ? this first will apply style to current playlists group then replace all child playlists with same style, continue ?</value>
+  </data>
+  <data name="Message_PleaseEnterPlaylistsGroupNameFirst" xml:space="preserve">
+    <value>Plaease enter playlists group name first</value>
+  </data>
+  <data name="Message_ThisPlaylistsGroupNameAlreadyTaken" xml:space="preserve">
+    <value>This playlists group name already taken</value>
+  </data>
+  <data name="Message_ThisWillSaveAndApplyCurrentStyleToPlaylistsGroupContinue" xml:space="preserve">
+    <value>This will apply current style to playlists group first. Continue ?</value>
+  </data>
+  <data name="PlaylistsGroupPropertiesDescription_General" xml:space="preserve">
+    <value>Allows to edit general playlists group properties such as name.</value>
+  </data>
+  <data name="PlaylistsGroupPropertiesDescription_Icon" xml:space="preserve">
+    <value>Allows to edit playlists group icon</value>
+  </data>
+  <data name="MessageCaption_PlaylistProperties" xml:space="preserve">
+    <value>Playlist properties</value>
+  </data>
+  <data name="Message_PleaseEnterPlaylistNameFirst" xml:space="preserve">
+    <value>Please enter playlist name first</value>
+  </data>
+  <data name="Message_ThisPlaylistNameAlreadyTaken" xml:space="preserve">
+    <value>This playlist name is already taken by another playlist.</value>
+  </data>
+  <data name="Message_ThisWillSaveAndApplyCurrentStyleToPlaylistContinue" xml:space="preserve">
+    <value>This will save and apply current style to playlist, continue ?</value>
+  </data>
+  <data name="PlaylistPropertiesDescription_General" xml:space="preserve">
+    <value>Allows to edit the playlist name and other general options.</value>
+  </data>
+  <data name="PlaylistPropertiesDescription_Icon" xml:space="preserve">
+    <value>Allows to change playlist icon</value>
+  </data>
+  <data name="Filter_AllFiles" xml:space="preserve">
+    <value>All files|*.*</value>
+  </data>
+  <data name="MessageCaption_AddEmulator" xml:space="preserve">
+    <value>Add emulator</value>
+  </data>
+  <data name="Message_PleaseEnterEmulatorNameFirst" xml:space="preserve">
+    <value>Please enter emulator's name first.</value>
+  </data>
+  <data name="Message_ThisEmulatorExcutableFileNotExists" xml:space="preserve">
+    <value>This emulator's excutable file not exists.</value>
+  </data>
+  <data name="Title_OpenEmulatorExcutableFile" xml:space="preserve">
+    <value>Open emulator's excutable file</value>
+  </data>
+  <data name="Message_PleaseCheckOneConsole" xml:space="preserve">
+    <value>Please check at least one console in the list.</value>
+  </data>
+  <data name="Message_TheresNoConsoleToAddEmulator" xml:space="preserve">
+    <value>There's no console in the database. You'll need at least one console to add emulator for.</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherEmulator" xml:space="preserve">
+    <value>This name is already taken by another emualtor in this database. To make sure, right click on the desired console then choose Assign Emulator.</value>
+  </data>
+  <data name="MessageCaption_DeleteEmulator" xml:space="preserve">
+    <value>Delete emulator(s)</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteEmulators" xml:space="preserve">
+    <value>Are you sure you want to delete selected emulator(s) ?
+
+Deleting emulator(s) will remove it/them from all consoles that may use this/these emulator(s).</value>
+  </data>
+  <data name="Emulator" xml:space="preserve">
+    <value>Emulator</value>
+  </data>
+  <data name="Message_EnterEmulatorName" xml:space="preserve">
+    <value>Enter emulator's name</value>
+  </data>
+  <data name="EmulatorPropertiesDescription_General" xml:space="preserve">
+    <value>Allows to change main emulator properties such as emulator's name.</value>
+  </data>
+  <data name="MessageCaption_EmulatorProperties" xml:space="preserve">
+    <value>Emulator properties</value>
+  </data>
+  <data name="MessageCaption_RomProperties" xml:space="preserve">
+    <value>Rom properties</value>
+  </data>
+  <data name="Message_PleaseEnterRomNameFirst" xml:space="preserve">
+    <value>Please enter the rom name first</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherRom" xml:space="preserve">
+    <value>This name is laready taken by another rom</value>
+  </data>
+  <data name="RomPropertiesDescription_General" xml:space="preserve">
+    <value>Allows to change main rom properties such as rom's name.</value>
+  </data>
+  <data name="Message_RomFileNotExist" xml:space="preserve">
+    <value>Rom file field empty or file not exist.</value>
+  </data>
+  <data name="Title_BrowseForRomFile" xml:space="preserve">
+    <value>Browse for rom file</value>
+  </data>
+  <data name="Message_RomFileAlreadyExistUnderAnotherName" xml:space="preserve">
+    <value>This rom path is already exist in the console roms collection under different name. Continue ?</value>
+  </data>
+  <data name="RomPropertiesDescription_Categories" xml:space="preserve">
+    <value>Allows to edit rom categories.</value>
+  </data>
+  <data name="Title_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Status_FilteredBySelectedCategories" xml:space="preserve">
+    <value>Filtered by selected categories</value>
+  </data>
+  <data name="MessageCaption_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="MessageCaption_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MessageCaption_LoadXml" xml:space="preserve">
+    <value>Load xml file</value>
+  </data>
+  <data name="Message_AreYouSure" xml:space="preserve">
+    <value>Are you sure ?</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToLoadThisFileAndDiscardCurrentChanges" xml:space="preserve">
+    <value>Are you sure you want to open this file and discard all changes ?</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTakenByAnotherGroup" xml:space="preserve">
+    <value>This name is already taken by another group</value>
+  </data>
+  <data name="Message_YouCantAddItemsToThisCommandline" xml:space="preserve">
+    <value>You can't add parameters to this commandline. It's marked as read-only</value>
+  </data>
+  <data name="Message_YouCantAddItemsToThisGroup" xml:space="preserve">
+    <value>You can't add commandlines to this group. It's marked as read-only</value>
+  </data>
+  <data name="Message_YouCantDeleteThisItem" xml:space="preserve">
+    <value>You can't delete this item. It's marked as read-only</value>
+  </data>
+  <data name="NewGroup" xml:space="preserve">
+    <value>New group</value>
+  </data>
+  <data name="Title_TheGroupName" xml:space="preserve">
+    <value>The group name</value>
+  </data>
+  <data name="EmulatorPropertiesDescription_Commandlines" xml:space="preserve">
+    <value>Allows to edit emulator's commandlines when to launch a rom.
+Warning: changes always applyed whatever you press ok or cancel.</value>
+  </data>
+  <data name="Message_EmulatorCommandlinesAreEmpty" xml:space="preserve">
+    <value>The commandlines are empty. The emulator will launch without running a rom without at least the rom path as commandline. Continue ?</value>
+  </data>
+  <data name="Title_Commandlines" xml:space="preserve">
+    <value>Commandlines</value>
+  </data>
+  <data name="Column_LastPlayed" xml:space="preserve">
+    <value>Last Played</value>
+  </data>
+  <data name="Message_7ZNotFound" xml:space="preserve">
+    <value>7z.dll not found !</value>
+  </data>
+  <data name="Message_WrongPasswordOrFileIsDamaged" xml:space="preserve">
+    <value>Wrong password or file is damaged.</value>
+  </data>
+  <data name="Status_Extracting" xml:space="preserve">
+    <value>Extracting</value>
+  </data>
+  <data name="Message_ThisArchiveIsEmpty" xml:space="preserve">
+    <value>This rom archive is empty ! no file found.</value>
+  </data>
+  <data name="Title_Archive" xml:space="preserve">
+    <value>Archives</value>
+  </data>
+  <data name="Message_NoExtensionAddedToTheArchiveTypesList" xml:space="preserve">
+    <value>No extension added to the archive types list !</value>
+  </data>
+  <data name="Message_TheTempFolderIsNotExist" xml:space="preserve">
+    <value>The temp folder is not exist !</value>
+  </data>
+  <data name="Title_TempFolder" xml:space="preserve">
+    <value>Temp folder</value>
+  </data>
+  <data name="Title_EnterNewExtensionWithDot" xml:space="preserve">
+    <value>Enter new extension with dot '.'</value>
+  </data>
+  <data name="Title_VisualAndBehavior" xml:space="preserve">
+    <value>Visual and behavior</value>
+  </data>
+  <data name="DefaultDataInfo_DevelopedBy" xml:space="preserve">
+    <value>Developed by</value>
+  </data>
+  <data name="DefaultDataInfo_Genre" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="DefaultDataInfo_Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="DefaultDataInfo_ReleaseDate" xml:space="preserve">
+    <value>Release date</value>
+  </data>
+  <data name="ConsolePropertiesDescription_RomDataInfo" xml:space="preserve">
+    <value>Allow to manage rom data info associated to this console.</value>
+  </data>
+  <data name="Title_RomDataInfo" xml:space="preserve">
+    <value>Rom data info</value>
+  </data>
+  <data name="Message_EnterDataInfoName" xml:space="preserve">
+    <value>Enter data info name</value>
+  </data>
+  <data name="Message_ThisNameAlreadyTaken" xml:space="preserve">
+    <value>This name is already taken !</value>
+  </data>
+  <data name="RomPropertiesDescription_Data" xml:space="preserve">
+    <value>Allows to edit rom data.</value>
+  </data>
+  <data name="Title_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Message_PleaseAddRomsToTheListFirst" xml:space="preserve">
+    <value>Please add files to the list first</value>
+  </data>
+  <data name="Title_AddRoms" xml:space="preserve">
+    <value>Add roms</value>
+  </data>
+  <data name="Word_Roms" xml:space="preserve">
+    <value>Roms</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="Button_DontSave" xml:space="preserve">
+    <value>&amp;Don't save</value>
+  </data>
+  <data name="Button_Save" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="Message_SortInGroupsIsForbidden" xml:space="preserve">
+    <value>Sort in Consoles/Playlist groups is forbidden because of it may corrupt the database.</value>
+  </data>
+  <data name="CheckBox_UseMyAnswerForTheRestOfDroppedFolders" xml:space="preserve">
+    <value>Use my answer for the rest of dropped folders</value>
+  </data>
+  <data name="Message_DoYouWantToAddAllRomsInSubFolders" xml:space="preserve">
+    <value>Do you want to add all roms in sub-folders of this folder if found ?</value>
+  </data>
+  <data name="Button_OpenLog" xml:space="preserve">
+    <value>&amp;Open log</value>
+  </data>
+  <data name="EmulatorPropertiesDescription_ParentConsoles" xml:space="preserve">
+    <value>Allows to edit consoles that this emulator work for.</value>
+  </data>
+  <data name="Message_YouMustEnableAtLeastOneParentConsole" xml:space="preserve">
+    <value>You must enable at least one parent console</value>
+  </data>
+  <data name="Title_ParentConsoles" xml:space="preserve">
+    <value>Parent consoles</value>
+  </data>
+  <data name="Caption_EnterProfileName" xml:space="preserve">
+    <value>Enter profile name</value>
+  </data>
+  <data name="MessageCaption_FindRoms" xml:space="preserve">
+    <value>Find roms</value>
+  </data>
+  <data name="Message_NoRomToSearch" xml:space="preserve">
+    <value>There is no rom found to search ! try to active element first (e.g. select console)</value>
+  </data>
+  <data name="Message_PleaseEnterSearchWord" xml:space="preserve">
+    <value>Please enter the search word first.</value>
+  </data>
+  <data name="Message_PleaseSelectElementFirst" xml:space="preserve">
+    <value>Please select an element first ! (console, playlist ..etc)</value>
+  </data>
+  <data name="Message_PleaseSelectSearchBy" xml:space="preserve">
+    <value>Please select search by first</value>
+  </data>
+  <data name="Status_Searching" xml:space="preserve">
+    <value>Searching roms</value>
+  </data>
+  <data name="Status_SearchResult" xml:space="preserve">
+    <value>Search Result</value>
+  </data>
+  <data name="MessageCaption_AddFilter" xml:space="preserve">
+    <value>Add filter</value>
+  </data>
+  <data name="Message_YouMustSelectElementToAddFilter" xml:space="preserve">
+    <value>You must select an element first to add filter (consoles group, console, playlists group or playlist)</value>
+  </data>
+  <data name="Message_PleaseEnterTheFilterName" xml:space="preserve">
+    <value>Please enter the filter name first.</value>
+  </data>
+  <data name="Message_PleaseEnterTheFilterWord" xml:space="preserve">
+    <value>Please enter the filter word first.</value>
+  </data>
+  <data name="Title_EditFilter" xml:space="preserve">
+    <value>Edit Filter</value>
+  </data>
+  <data name="Message_ThisFilterNameAlreadyTaken" xml:space="preserve">
+    <value>This filter name is already taken by another filter.</value>
+  </data>
+  <data name="Word_By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="Status_FilteredBySelectedFilters" xml:space="preserve">
+    <value>Filtered by selected filters</value>
+  </data>
+  <data name="MessageCaption_DeleteFilter" xml:space="preserve">
+    <value>Delete filter</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteSelectedFilter" xml:space="preserve">
+    <value>Are you sure you want to delete selected filter ?</value>
+  </data>
+  <data name="Message_YouMustSelectElementToDeleteFilter" xml:space="preserve">
+    <value>You must select the filter's parent element first.</value>
+  </data>
+  <data name="Message_YouMustSelectElementToEditFilter" xml:space="preserve">
+    <value>You must select the filter's parent element first.</value>
+  </data>
+  <data name="SearchCondition_Contains" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="SearchCondition_DoesNotContain" xml:space="preserve">
+    <value>Does not contains</value>
+  </data>
+  <data name="SearchCondition_DoesNotEndWith" xml:space="preserve">
+    <value>Does not end with</value>
+  </data>
+  <data name="Searchcondition_DoesNotEqual" xml:space="preserve">
+    <value>Not equal</value>
+  </data>
+  <data name="SearchCondition_DoesNotStartWith" xml:space="preserve">
+    <value>Does not start with</value>
+  </data>
+  <data name="SearchCondition_EndWith" xml:space="preserve">
+    <value>End with</value>
+  </data>
+  <data name="SearchCondition_Equal" xml:space="preserve">
+    <value>Equal</value>
+  </data>
+  <data name="Searchcondition_EqualSmaller" xml:space="preserve">
+    <value>Equal smaller</value>
+  </data>
+  <data name="SearchCondition_EuqalLarger" xml:space="preserve">
+    <value>Euqal larger</value>
+  </data>
+  <data name="SearchCondition_Is" xml:space="preserve">
+    <value>Is</value>
+  </data>
+  <data name="SearchCondition_IsNot" xml:space="preserve">
+    <value>Is not</value>
+  </data>
+  <data name="SearchCondition_Larger" xml:space="preserve">
+    <value>Larger</value>
+  </data>
+  <data name="SearchCondition_Smaller" xml:space="preserve">
+    <value>Smaller</value>
+  </data>
+  <data name="SearchCondition_StartWith" xml:space="preserve">
+    <value>Start with</value>
+  </data>
+  <data name="SearchMode_FilePath" xml:space="preserve">
+    <value>Rom file path</value>
+  </data>
+  <data name="SearchMode_FileType" xml:space="preserve">
+    <value>Rom file type</value>
+  </data>
+  <data name="SearchMode_LastPlayed" xml:space="preserve">
+    <value>Last played time</value>
+  </data>
+  <data name="SearchMode_Name" xml:space="preserve">
+    <value>Rom name</value>
+  </data>
+  <data name="SearchMode_PlayedTimes" xml:space="preserve">
+    <value>Played times count</value>
+  </data>
+  <data name="SearchMode_PlayTime" xml:space="preserve">
+    <value>Play time</value>
+  </data>
+  <data name="SearchMode_Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="SearchMode_Size" xml:space="preserve">
+    <value>Rom file size</value>
+  </data>
+  <data name="Word_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Word_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="MessageCaption_EnterTheInformationContainerName" xml:space="preserve">
+    <value>Enter the information container name</value>
+  </data>
+  <data name="ConsolePropertiesDescription_Tabs" xml:space="preserve">
+    <value>Allows to manage infomration container tabs for this console.</value>
+  </data>
+  <data name="Title_Tabs" xml:space="preserve">
+    <value>Tabs</value>
+  </data>
+  <data name="MessageCaption_DeleteInformationContainer" xml:space="preserve">
+    <value>Delete Information Container</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteInformationContainer" xml:space="preserve">
+    <value>Are you sure you want to delete selected information container ?
+* This can't be undone unless you don't save profile
+* All information associated with this container within roms of this console will be removed
+* Columns of this console will reset and all become visible.</value>
+  </data>
+  <data name="Button_Hide" xml:space="preserve">
+    <value>&amp;Hide</value>
+  </data>
+  <data name="Button_Show" xml:space="preserve">
+    <value>&amp;Show</value>
+  </data>
+  <data name="Message_AreYouSureToDeleteSelectedFolders" xml:space="preserve">
+    <value>Are you sure you want to delete selected folder(s) from the list ?</value>
+  </data>
+  <data name="Title_Detect" xml:space="preserve">
+    <value>Detect</value>
+  </data>
+  <data name="Title_DetectWindow" xml:space="preserve">
+    <value>Detect files for</value>
+  </data>
+  <data name="Button_Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="Message_NoExtensionAdded" xml:space="preserve">
+    <value>No extension added. Please add at least one extension.</value>
+  </data>
+  <data name="Message_NoFolderToSearchPleaseAddAtLeastOneFolder" xml:space="preserve">
+    <value>No folder to search ! please add at least one folder.</value>
+  </data>
+  <data name="Status_DetectingRoms" xml:space="preserve">
+    <value>Detecting roms</value>
+  </data>
+  <data name="MessageCaption_InformationContainerControl" xml:space="preserve">
+    <value>Information Container Control</value>
+  </data>
+  <data name="Message_CantEditFilesListNoFileFound" xml:space="preserve">
+    <value>Can't edit files list; no file found for this rom.</value>
+  </data>
+  <data name="Message_CantEditFilesListNoRomSelected" xml:space="preserve">
+    <value>Can't edit files list; you must select one rom only.</value>
+  </data>
+  <data name="Title_EditFilesListFor" xml:space="preserve">
+    <value>Edit files list for</value>
+  </data>
+  <data name="Title_AddFilesFor" xml:space="preserve">
+    <value>Add files for</value>
+  </data>
+  <data name="CheckBox_DeleteFileFromDiskToo" xml:space="preserve">
+    <value>Delete file from disk too. BE CAREFUL !</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteThisFileFormTheList" xml:space="preserve">
+    <value>Are you sure you want to delete this file form the list ?</value>
+  </data>
+  <data name="Message_CantAddFilesListNoRomSelected" xml:space="preserve">
+    <value>Can't add files; you must select one rom only.</value>
+  </data>
+  <data name="Message_CantDeleteFileNoFileFound" xml:space="preserve">
+    <value>Can't delete file; no file found.</value>
+  </data>
+  <data name="Message_CantDeleteFileNoRomSelected" xml:space="preserve">
+    <value>Can't delete file; you must select one rom only.</value>
+  </data>
+  <data name="Message_CantDeleteFileNotValidIndex" xml:space="preserve">
+    <value>Can't delete file; no file selected !!</value>
+  </data>
+  <data name="Message_CantShowImage" xml:space="preserve">
+    <value>Can't Show image !!</value>
+  </data>
+  <data name="Message_PleaseSelectFile" xml:space="preserve">
+    <value>Please select a rom to show files related to this tab here. 
+If this rom has no file for this tab, click the add button 
+above to add files here.</value>
+  </data>
+  <data name="Message_CantAcceptDraggedFilesOneRomMustSelected" xml:space="preserve">
+    <value>Unable to add files; the dragged files must be in COPY mode and one rom is selected.</value>
+  </data>
+  <data name="Title_AddFiles" xml:space="preserve">
+    <value>Add files</value>
+  </data>
+  <data name="Word_AutoSelect" xml:space="preserve">
+    <value>Auto Select</value>
+  </data>
+  <data name="Title_NewFile" xml:space="preserve">
+    <value>New file for</value>
+  </data>
+  <data name="Message_UnableToSaveTheFile" xml:space="preserve">
+    <value>Unable to save the file !</value>
+  </data>
+  <data name="Column_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Column_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="MessageCaption_AddLink" xml:space="preserve">
+    <value>Add link</value>
+  </data>
+  <data name="Message_PleaseEnterTheLinkFirst" xml:space="preserve">
+    <value>Please enter the link first</value>
+  </data>
+  <data name="Message_PleaseEnterTheLinkNameFirst" xml:space="preserve">
+    <value>Please enter the link name first</value>
+  </data>
+  <data name="Message_EnteredNameAlreadyTakenForrom" xml:space="preserve">
+    <value>Entered name already exist in the links list for this rom.</value>
+  </data>
+  <data name="Status_LoadingPage" xml:space="preserve">
+    <value>Loading page ...</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteThisLink" xml:space="preserve">
+    <value>Are you sure you want to delete this link ?</value>
+  </data>
+  <data name="Message_CantDeleteLinkNoLinkFound" xml:space="preserve">
+    <value>Can't delete link; no links found for this rom that related to this tab</value>
+  </data>
+  <data name="Message_CantDeleteLinkNoRomSelected" xml:space="preserve">
+    <value>Can't delete link; no rom selected, one rom must be selected to complete this operation.</value>
+  </data>
+  <data name="Message_CantDeleteLinkNotValidIndex" xml:space="preserve">
+    <value>Can't delete link; not valid index</value>
+  </data>
+  <data name="Info_LastPlayedAt" xml:space="preserve">
+    <value>last played at</value>
+  </data>
+  <data name="Info_Played" xml:space="preserve">
+    <value>Played</value>
+  </data>
+  <data name="Info_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Info_TimesIn" xml:space="preserve">
+    <value>time(s) at</value>
+  </data>
+  <data name="Status_PleaseSelectRom" xml:space="preserve">
+    <value>Please select one rom</value>
+  </data>
+  <data name="Message_DeletingRomWillDeleteAllRelatedFilesFromDatabase" xml:space="preserve">
+    <value>Deleting rom will delete all related file(s) from database.</value>
+  </data>
+  <data name="Message_RomFilesWillBePermanently" xml:space="preserve">
+    <value>Rom file(s) will be permanently deleted from disk too. Be careful !</value>
+  </data>
+  <data name="Message_RomRelatedFilesWillBeDeletedPermanently" xml:space="preserve">
+    <value>Rom related file(s) (such as images, info files, manuals...etc) will be deleted from disk. Be careful !</value>
+  </data>
+  <data name="Message_SelectedRomFilesWillBeDeletedFromDatabase" xml:space="preserve">
+    <value>Selected rom(s) will be deleted from database.</value>
+  </data>
+  <data name="MessageCaption_ClearProfile" xml:space="preserve">
+    <value>Clear profile</value>
+  </data>
+  <data name="Status_RemovingEmptyConsoleGroups" xml:space="preserve">
+    <value>Removing empty console groups</value>
+  </data>
+  <data name="Status_RemovingEmptyConsoles" xml:space="preserve">
+    <value>Removing empty consoles</value>
+  </data>
+  <data name="Status_RemovingEmptyPlaylistGroups" xml:space="preserve">
+    <value>Removing empty playlist groups</value>
+  </data>
+  <data name="Status_RemovingEmptyPlaylists" xml:space="preserve">
+    <value>Removing empty playlists</value>
+  </data>
+  <data name="Status_RemovingRomsWithMissingFiles" xml:space="preserve">
+    <value>Removing roms with missing files</value>
+  </data>
+  <data name="Status_RemovingUnneededAssignments" xml:space="preserve">
+    <value>Removing unneeded assignments</value>
+  </data>
+  <data name="Status_RemovingUnusedEmulators" xml:space="preserve">
+    <value>Removing unused emulators</value>
+  </data>
+  <data name="Message_NothingToDoPleaseSelectAtLeastOneOption" xml:space="preserve">
+    <value>Nothing to do !! please select at least one option.</value>
+  </data>
+  <data name="Status_Done" xml:space="preserve">
+    <value>Done !</value>
+  </data>
+  <data name="Log_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Log_FileIsNotExist" xml:space="preserve">
+    <value>File is not exist</value>
+  </data>
+  <data name="Log_IsNotArchiveIgnored" xml:space="preserve">
+    <value>Is not archive file, ignored.</value>
+  </data>
+  <data name="Log_UnableToCompressRomFile" xml:space="preserve">
+    <value>Unable to compress rom file</value>
+  </data>
+  <data name="Log_UnableToExtractFile" xml:space="preserve">
+    <value>Unable to compress file</value>
+  </data>
+  <data name="MessageCaption_CompressionTool" xml:space="preserve">
+    <value>Compression Tool</value>
+  </data>
+  <data name="Message_PleaseBrowseForOutputFolder" xml:space="preserve">
+    <value>Please browse for the output folder</value>
+  </data>
+  <data name="Message_PleaseBrwoseForInputFolder" xml:space="preserve">
+    <value>Please browse for the input folder</value>
+  </data>
+  <data name="Message_PleaseEnterACompressPassword" xml:space="preserve">
+    <value>Please enter the password that should be used for compress</value>
+  </data>
+  <data name="Message_PleaseEnterExtractPassword" xml:space="preserve">
+    <value>Please enter the password that should be used for extract</value>
+  </data>
+  <data name="Status_ClearingTheOutputFolder" xml:space="preserve">
+    <value>Clearing the output folder</value>
+  </data>
+  <data name="Status_Compressing" xml:space="preserve">
+    <value>Compressing</value>
+  </data>
+  <data name="Message_UNABLEToRenameRelatedFile" xml:space="preserve">
+    <value>UNABLE to rename related file</value>
+  </data>
+  <data name="Button_SkipConsole" xml:space="preserve">
+    <value>&amp;Skip console</value>
+  </data>
+  <data name="MessageCaption_ChangeExtension" xml:space="preserve">
+    <value>Change extension</value>
+  </data>
+  <data name="Message_DoYouWantToAddThisExtensionToThisConsole" xml:space="preserve">
+    <value>Do you want to include this extension to this console as well ?</value>
+  </data>
+  <data name="Message_PleaseSelectRomsFirst" xml:space="preserve">
+    <value>Please select rom(s) you want to change extension for first</value>
+  </data>
+  <data name="Message_ThisExtensioinIsntExistInTheConsole" xml:space="preserve">
+    <value>This extension is not defined in the parent console</value>
+  </data>
+  <data name="Title_EnterTheNewExtension" xml:space="preserve">
+    <value>Enter the new extension</value>
+  </data>
+  <data name="Status_NotPlayed" xml:space="preserve">
+    <value>Not played yet</value>
+  </data>
+  <data name="Status_PlayedOnce" xml:space="preserve">
+    <value>Played once</value>
+  </data>
+  <data name="Word_Times" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="Word_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Tabs_LaunchOptions" xml:space="preserve">
+    <value>Launch Options</value>
+  </data>
+  <data name="RomPropertiesDescription_Commandlines" xml:space="preserve">
+    <value>Allows to change commandline options when this rom get launched</value>
+  </data>
+  <data name="Message_PleaseEnterRomNameToSearch" xml:space="preserve">
+    <value>Please enter the name to search first.</value>
+  </data>
+  <data name="Message_ThisFileMustBeRtfOrDocToApplyMobyGamesInfo" xml:space="preserve">
+    <value>This file must be rtf or doc for this operation</value>
+  </data>
+  <data name="MessageCaption_GetDataFromMobyGames" xml:space="preserve">
+    <value>Get rom data from MobyGames.com</value>
+  </data>
+  <data name="Message_PleaseSelectOneRomFirst" xml:space="preserve">
+    <value>Please select one rom first</value>
+  </data>
+  <data name="Filter_NesCart" xml:space="preserve">
+    <value>Nes Cart Database (*.xml)|*.xml</value>
+  </data>
+  <data name="Message_YouMustSelectConsole" xml:space="preserve">
+    <value>You must select console to complete this operation.</value>
+  </data>
+  <data name="MessgeCaption_ImportNesCartDatabase" xml:space="preserve">
+    <value>Import Nes Cart database</value>
+  </data>
+  <data name="Status_ReadingDatabaseFile" xml:space="preserve">
+    <value>Reading database file</value>
+  </data>
+  <data name="MessageCaption_ImportNesCartDB" xml:space="preserve">
+    <value>Import Nes Cart database</value>
+  </data>
+  <data name="Status_ApplyingDatabase" xml:space="preserve">
+    <value>Applying database to roms</value>
+  </data>
+  <data name="Filter_NoIntro" xml:space="preserve">
+    <value>No-Intro Database (*.dat)|*.dat</value>
+  </data>
+  <data name="MessgeCaption_ImportNoIntroDatabase" xml:space="preserve">
+    <value>Import no-intro database</value>
+  </data>
+  <data name="MessageCaption_ExportToDatabaseFile" xml:space="preserve">
+    <value>Export to database file</value>
+  </data>
+  <data name="Message_PleaseSelectRomsFirstToExportToDatabase" xml:space="preserve">
+    <value>Please select rom(s) first.</value>
+  </data>
+  <data name="Title_ExportNoIntroDatabaseFile" xml:space="preserve">
+    <value>Export no-intro database file</value>
+  </data>
+  <data name="MessgeCaption_ImportWHDLoadDatabase" xml:space="preserve">
+    <value>Import WHD Load database</value>
+  </data>
+  <data name="Filter_WHDLoad" xml:space="preserve">
+    <value>WHD Load (*.map)|*.map</value>
+  </data>
+  <data name="Title_ExportWHDLoadDatabaseFile" xml:space="preserve">
+    <value>Exxport WHD Load database</value>
+  </data>
+  <data name="Filter_SMS" xml:space="preserve">
+    <value>SMS (*.txt)|*.txt</value>
+  </data>
+  <data name="Title_ExportSMSDatabaseFile" xml:space="preserve">
+    <value>Export to SMS database</value>
+  </data>
+  <data name="MessageCaption_ImportSMSDB" xml:space="preserve">
+    <value>Import SMS Database</value>
+  </data>
+  <data name="Filter_CSV" xml:space="preserve">
+    <value>CSV (*.ini)|*.ini</value>
+  </data>
+  <data name="Title_ExportCSVDatabaseFile" xml:space="preserve">
+    <value>Export CSV database</value>
+  </data>
+  <data name="MessageCaption_ImportCSVDB" xml:space="preserve">
+    <value>Import CSV database</value>
+  </data>
+  <data name="MessgeCaption_ImportMameDatDatabase" xml:space="preserve">
+    <value>Import Mame Dat Database</value>
+  </data>
+  <data name="Filter_Mame" xml:space="preserve">
+    <value>Mame Dat (*.dat)|*.dat|Mame XML (*.xml)|*.xml|Mame Hyperlist (*.xml)|*.xml</value>
+  </data>
+  <data name="MessageCaption_SeparateDatabaseFile" xml:space="preserve">
+    <value>Separate Database file</value>
+  </data>
+  <data name="Message_PleaseBrowseForDestinationFolder" xml:space="preserve">
+    <value>Please browse for the destination folder.</value>
+  </data>
+  <data name="Message_PleaseBrowseForTheDatabaseFileFirst" xml:space="preserve">
+    <value>Please select and browse for database file first.</value>
+  </data>
+  <data name="Status_ClearingInfoFolder" xml:space="preserve">
+    <value>Clearing the info folder ...</value>
+  </data>
+  <data name="Title_BrowseForDestinationFolder" xml:space="preserve">
+    <value>Browse for destination folder</value>
+  </data>
+  <data name="Status_SeparatingDatabase" xml:space="preserve">
+    <value>Separating Database ....</value>
+  </data>
+  <data name="Status_DeletingFilesOfLogsFolder" xml:space="preserve">
+    <value>Deleting files in the logs folder</value>
+  </data>
+  <data name="Status_DeletingFoldersOfLogsFolder" xml:space="preserve">
+    <value>Deleting folders in the logs folder</value>
+  </data>
+  <data name="MessageCaption_GetImagesFromDatabase" xml:space="preserve">
+    <value>Get images from database</value>
+  </data>
+  <data name="Message_PleaseBrowseForTheImagesFolderFirst" xml:space="preserve">
+    <value>Please browse for distination images folder first.</value>
+  </data>
+  <data name="Status_ApplyingImages" xml:space="preserve">
+    <value>Applying images ..</value>
+  </data>
+  <data name="MessageCaption_GetInfoFromDatFile" xml:space="preserve">
+    <value>Get info from database</value>
+  </data>
+  <data name="Message_PleaseBrowseForInfoDatFileFirst" xml:space="preserve">
+    <value>Please browse for info dat file first.</value>
+  </data>
+  <data name="Status_CreatingInfoFiles" xml:space="preserve">
+    <value>Creating the info files</value>
+  </data>
+  <data name="Message_PleaseSelectaProfileFromTheListFirst" xml:space="preserve">
+    <value>Please select a profile from the list first.</value>
+  </data>
+  <data name="Message_PleaseEnterTheProfileNameFirst" xml:space="preserve">
+    <value>Please enter the profile name first.</value>
+  </data>
+  <data name="MessageCaption_ClearRelatedFiles" xml:space="preserve">
+    <value>Clear related files</value>
+  </data>
+  <data name="Message_PleaseSelectRomsFirstToCleareRelatedFiles" xml:space="preserve">
+    <value>Please select roms to clear related files for</value>
+  </data>
+  <data name="MessageCaption_GetImagesFromGoogleImage" xml:space="preserve">
+    <value>Get images from google image</value>
+  </data>
+  <data name="Message_ItStillSearching" xml:space="preserve">
+    <value>It still searching, do you want to stop the search process ?</value>
+  </data>
+  <data name="Message_PleaseBrowseForADownloadFolderFirst" xml:space="preserve">
+    <value>Please browse for download folder first</value>
+  </data>
+  <data name="Message_PleaseEnterTheRomNameToSearchFor" xml:space="preserve">
+    <value>Please enter the rom name to search for</value>
+  </data>
+  <data name="Message_SelectFolderWhereToSaveFiles" xml:space="preserve">
+    <value>Select the folder where to save files</value>
+  </data>
+  <data name="Message_SelectImageYouWantToDownloadFirst" xml:space="preserve">
+    <value>Please select the image you want to download first</value>
+  </data>
+  <data name="Message_TheImageSizeMUSTNotIncludeZeros" xml:space="preserve">
+    <value>The image size must not include zeros.</value>
+  </data>
+  <data name="Message_UnableToConnect" xml:space="preserve">
+    <value>Unable to connect</value>
+  </data>
+  <data name="Status_Canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="Status_SearchingForImages" xml:space="preserve">
+    <value>Searching for images</value>
+  </data>
+  <data name="Status_Downloading" xml:space="preserve">
+    <value>Downloading ...</value>
+  </data>
+  <data name="Message_ClearOldImagesCollectionFirst" xml:space="preserve">
+    <value>Do you want to clear old images collection first ?</value>
+  </data>
+  <data name="Title_GoogleImages" xml:space="preserve">
+    <value>Google images search</value>
+  </data>
+  <data name="Message_ThisFolderIsntExistDoYouWantToCreateIt" xml:space="preserve">
+    <value>This folder isn't exist, do you want to create it ?</value>
+  </data>
+  <data name="MessageCaption_ApplyRomNamesToFiles" xml:space="preserve">
+    <value>Apply rom names to files</value>
+  </data>
+  <data name="Message_PleaseSelectTheRomsToApplyNamesFor" xml:space="preserve">
+    <value>Please select the roms you want to apply names for.</value>
+  </data>
+  <data name="Filter_BackupFile" xml:space="preserve">
+    <value>Emulators Organizer information backup (*.eoib)|*.eoib</value>
+  </data>
+  <data name="Message_PleaseBrowseForBackupFile" xml:space="preserve">
+    <value>Please browse for the backup file</value>
+  </data>
+  <data name="Message_FoldersNotExist" xml:space="preserve">
+    <value>Folder is not exist</value>
+  </data>
+  <data name="Status_Buffering" xml:space="preserve">
+    <value>Buffering ....</value>
+  </data>
+  <data name="Filter_ConsoleFile" xml:space="preserve">
+    <value>Emulators Organizer console file (*.eoc)|*.eoc</value>
+  </data>
+  <data name="MessageCaption_ExportConsole" xml:space="preserve">
+    <value>Export Console</value>
+  </data>
+  <data name="Message_PleaseSelectConsoleFirst" xml:space="preserve">
+    <value>Please select the desired console first.</value>
+  </data>
+  <data name="Filter_ImportConsoleFile" xml:space="preserve">
+    <value>Import Console File</value>
+  </data>
+  <data name="Column_Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Info_ReadyToSend" xml:space="preserve">
+    <value>Ready to send</value>
+  </data>
+  <data name="Log_FileNotExist" xml:space="preserve">
+    <value>File is not exist</value>
+  </data>
+  <data name="Log_UnableToCopyRomFile" xml:space="preserve">
+    <value>Unable to copy rom file</value>
+  </data>
+  <data name="Log_UnableToCopyRomRelatedFile" xml:space="preserve">
+    <value>Unable to copy related file</value>
+  </data>
+  <data name="Log_UnableToDeleteRomFile" xml:space="preserve">
+    <value>Unable to delete rom file</value>
+  </data>
+  <data name="Log_UnableToExtractRomFile" xml:space="preserve">
+    <value>Unable to extract rom file</value>
+  </data>
+  <data name="MessageCaption_SendTo" xml:space="preserve">
+    <value>Send To</value>
+  </data>
+  <data name="Message_PleaseBrowseForDestinationFolderFirst" xml:space="preserve">
+    <value>Please browse for the destenation folder</value>
+  </data>
+  <data name="Status_ClearingTheDestinationFolder" xml:space="preserve">
+    <value>Clearing the destination folder</value>
+  </data>
+  <data name="Status_Copying" xml:space="preserve">
+    <value>Copying</value>
+  </data>
+  <data name="MessageCaption_ProgramProperties" xml:space="preserve">
+    <value>Program properties</value>
+  </data>
+  <data name="Message_PleaseBrowseForProgram" xml:space="preserve">
+    <value>Please browse for a program</value>
+  </data>
+  <data name="Message_PleaseEnterProgramNameFirst" xml:space="preserve">
+    <value>Please enter the program name first</value>
+  </data>
+  <data name="EmulatorPropertiesDescription_ProgramsToLaunch" xml:space="preserve">
+    <value>Allows to add programs to run after/before running this emulator</value>
+  </data>
+  <data name="Title_ProgramsToLaunch" xml:space="preserve">
+    <value>Programs to launch</value>
+  </data>
+  <data name="Message_YouCantAddRomInfoTwice" xml:space="preserve">
+    <value>You can't add the rom info tab more than once in a console</value>
+  </data>
+  <data name="Title_StyleEditor" xml:space="preserve">
+    <value>Style Editor</value>
+  </data>
+  <data name="Title_Icon" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Title_DefaultStyle" xml:space="preserve">
+    <value>Default Style</value>
+  </data>
+  <data name="ConsolePropertiesDescription_Style" xml:space="preserve">
+    <value>Allows to edit the console style that applys when this console activated</value>
+  </data>
+  <data name="ConsolesGroupPropertiesDescription_Style" xml:space="preserve">
+    <value>Allows to edit the consoles group style that applys when this group activated</value>
+  </data>
+  <data name="PlaylistPropertiesDescription_Style" xml:space="preserve">
+    <value>Allows to edit the playlist style that applys when this playlist activated</value>
+  </data>
+  <data name="PlaylistsGroupPropertiesDescription_Style" xml:space="preserve">
+    <value>Allows to edit the playlists group style that applys when this group activated</value>
+  </data>
+  <data name="Title_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="Message_YouMustSelectaConsoleToCompleteThisOperation" xml:space="preserve">
+    <value>You must select a console to complete this operation.</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToClearSelectedImage" xml:space="preserve">
+    <value>Are you sure you want to clear selected image ?</value>
+  </data>
+  <data name="Message_ThisWillApplyTheseFontAndColorsToAllBrowsersContinue" xml:space="preserve">
+    <value>This will apply these font and colors to all browsers, continue ?</value>
+  </data>
+  <data name="Message_ThisWillChangeAllBrowserImagesToLoadedOneContinue" xml:space="preserve">
+    <value>This will change all browser images to loaded one, continue ?</value>
+  </data>
+  <data name="Message_ThisWillClearAllBrowserImagesContinue" xml:space="preserve">
+    <value>This will clear all browser images, continue ?</value>
+  </data>
+  <data name="MessageCaption_FieldsEdit" xml:space="preserve">
+    <value>Fields Edit</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToDeleteThisFieldFormTheList" xml:space="preserve">
+    <value>Are you sure you want to delete selected item from the list ?</value>
+  </data>
+  <data name="Title_EnterFieldName" xml:space="preserve">
+    <value>Enter field name</value>
+  </data>
+  <data name="Word_Instant" xml:space="preserve">
+    <value>Instant</value>
+  </data>
+  <data name="Word_Seconds" xml:space="preserve">
+    <value>second(s)</value>
+  </data>
+  <data name="Word_Wait" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="Word_WaitToFinish" xml:space="preserve">
+    <value>Wait to finish</value>
+  </data>
+  <data name="ConsolePropertiesDescription_Archive" xml:space="preserve">
+    <value>Allows to config console behavior when attempting to play compressed roms</value>
+  </data>
+  <data name="Message_YouMustEnterArchiveExtension" xml:space="preserve">
+    <value>You must add one archive extension at least.</value>
+  </data>
+  <data name="MessageCaption_GetImagesFromFolder" xml:space="preserve">
+    <value>Get images from folder</value>
+  </data>
+  <data name="Message_PleaseBrowseForTheTargetFolderFirst" xml:space="preserve">
+    <value>Please browse for the target folder first</value>
+  </data>
+  <data name="Title_SelectTheFolderYouWantToSearch" xml:space="preserve">
+    <value>Select the folder you want to search.</value>
+  </data>
+  <data name="Message_PleaseBrowseForTheFolderWhereToSaveFilesFirst" xml:space="preserve">
+    <value>Please browse for the folder where to save files first.</value>
+  </data>
+  <data name="Message_PleaseSelectTheDataInfoElementToSave" xml:space="preserve">
+    <value>Please select the data info element to save.</value>
+  </data>
+  <data name="Message_PleaseSelectTheInfoTabYouWantToSaveInto" xml:space="preserve">
+    <value>Please select the info tab you want to save into.</value>
+  </data>
+  <data name="Message_TheresNoDataInfoForThisConsole" xml:space="preserve">
+    <value>There's no data info for this console !!</value>
+  </data>
+  <data name="Message_TheresNoInfoTabForThisConsole" xml:space="preserve">
+    <value>There's no info tab for this console !!</value>
+  </data>
+  <data name="Message_ThisWillRemoveAllProfilesInTheRecentList" xml:space="preserve">
+    <value>This will remove all files from recent list and this can't be undone. Are you sure you want to remove all files from the recent list ?</value>
+  </data>
+  <data name="Message_ThisWillRemoveProfileFromRecentList" xml:space="preserve">
+    <value>This will remove this file from recent list and this can't be undone. Are you sure you want to remove this file from the recent list ?</value>
+  </data>
+  <data name="MessageCaption_AddMameConsole" xml:space="preserve">
+    <value>Add MAME console.</value>
+  </data>
+  <data name="Message_DatabaseFileIsNotExist" xml:space="preserve">
+    <value>Database file is not exist. Please browse for database file.</value>
+  </data>
+  <data name="Message_TheresNoFolder" xml:space="preserve">
+    <value>There is no folder in the list. Please add at least one folder.</value>
+  </data>
+  <data name="Title_AddFolder" xml:space="preserve">
+    <value>Add folder</value>
+  </data>
+  <data name="Title_OpenMameDatDatabaseFile" xml:space="preserve">
+    <value>Open MAME-DAT database file.</value>
+  </data>
+  <data name="DataInfo_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DataInfo_Manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="MessgeCaption_ImportHyperListXMLDatDatabase" xml:space="preserve">
+    <value>Import Hyber List XML</value>
+  </data>
+  <data name="Filter_HyberListXML" xml:space="preserve">
+    <value>Hyber List XML Database File (*.xml)|*.xml</value>
+  </data>
+  <data name="Filter_Catveren" xml:space="preserve">
+    <value>Catveren file (*.ini)|*.ini</value>
+  </data>
+  <data name="MessgeCaption_ImportCatverenCategoriesFile" xml:space="preserve">
+    <value>Import Catveren (for categories) file</value>
+  </data>
+  <data name="MessageCheckBox_AlwaysRemindMe" xml:space="preserve">
+    <value>Always remind me !</value>
+  </data>
+  <data name="Message_HidingMainMenuFirtTime" xml:space="preserve">
+    <value>Looks like you're hiding the main menu for the first time !!
+Please remember these shortucts:
+Show/Hide main menu: ALT + Q
+Show/Hide tools bar: ALT + W
+Show/Hide status strip: ALT + E
+
+In case you get confused next time :)</value>
+  </data>
+  <data name="Title_ExportCatverenDatabaseFile" xml:space="preserve">
+    <value>Export Catveren database</value>
+  </data>
+  <data name="Message_YouMustEnterScript" xml:space="preserve">
+    <value>You must enter a script first !</value>
+  </data>
+  <data name="RomPropertiesDescription_ProgramsToLaunch" xml:space="preserve">
+    <value>Allows to add programs to run after/before running an emulator</value>
+  </data>
+  <data name="Tab_ProfileStatus" xml:space="preserve">
+    <value>Profile Status</value>
+  </data>
+  <data name="Property_ProfileName" xml:space="preserve">
+    <value>Profile name</value>
+  </data>
+  <data name="Property_TotalConsoleGroups" xml:space="preserve">
+    <value>Total console groups count</value>
+  </data>
+  <data name="Property_TotalConsoles" xml:space="preserve">
+    <value>Total consoles count</value>
+  </data>
+  <data name="Property_TotalEmulators" xml:space="preserve">
+    <value>Total emulators count</value>
+  </data>
+  <data name="Property_TotalPlaylistGroups" xml:space="preserve">
+    <value>Total playlist groups count</value>
+  </data>
+  <data name="Property_TotalPlaylists" xml:space="preserve">
+    <value>Total playlists count</value>
+  </data>
+  <data name="Property_TotalRoms" xml:space="preserve">
+    <value>Total roms count</value>
+  </data>
+  <data name="Status_NoShortDescriptionForThisConsole" xml:space="preserve">
+    <value>No short description for this console.</value>
+  </data>
+  <data name="Tab_ConsoleStatus" xml:space="preserve">
+    <value>Console Status</value>
+  </data>
+  <data name="Tab_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Tab_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="FilterName_InformationFile" xml:space="preserve">
+    <value>Information file</value>
+  </data>
+  <data name="Title_ConsoleInformation" xml:space="preserve">
+    <value>console information</value>
+  </data>
+  <data name="Title_OpenFile" xml:space="preserve">
+    <value>Open file for</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToRemoveTheRtfAssignmentForThisConsole" xml:space="preserve">
+    <value>Are you sure you want to remove the rtf assignment for this console ?</value>
+  </data>
+  <data name="Message_UnableToDeleteFile" xml:space="preserve">
+    <value>Unable to delete file</value>
+  </data>
+  <data name="FilterName_Manual" xml:space="preserve">
+    <value>Manual file (ebook, pdf)</value>
+  </data>
+  <data name="Message_AreYouSureYouWantToRemoveThePdfAssignmentForThisConsole" xml:space="preserve">
+    <value>Are you sure you want to remove the manual (pdf) assignment for this console ?</value>
+  </data>
+  <data name="Title_ConsoleManual" xml:space="preserve">
+    <value>console manual</value>
+  </data>
+  <data name="ConsolePropertiesDescription_Information" xml:space="preserve">
+    <value>Allows to edit console information such as console manual.</value>
+  </data>
+  <data name="Title_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Message_InformationFileIsNotExist" xml:space="preserve">
+    <value>Information file is not exist. It can be empty (click on clear)</value>
+  </data>
+  <data name="Message_ManualFileIsNotExist" xml:space="preserve">
+    <value>Manual file is not exist. It can be empty (click on clear)</value>
+  </data>
+  <data name="RomPropertiesDescription_ParentAndChildren" xml:space="preserve">
+    <value>Allows to modify rom configuration related to "Parent and Children" mode.</value>
+  </data>
+  <data name="Title_ParentAndChildren" xml:space="preserve">
+    <value>Parent And Children</value>
+  </data>
+  <data name="MessageCaption_RemoveChildren" xml:space="preserve">
+    <value>Remove Children</value>
+  </data>
+  <data name="Message_AreYouSureyouWantToRemoveChildren" xml:space="preserve">
+    <value>Are you sure you want to remove selected roms from children list ?\n\n*These roms will not be removed from the console, only the relationship get updated\n* These roms will become normal free roms.</value>
+  </data>
+  <data name="Message_AddChildrenWarning" xml:space="preserve">
+    <value>Warning !!
+If a selected rom is already a CHILD to another parent rom, the old parent-child relationship will be removed and this CHILD rom will become a child to this current rom. (CHILD roms cannot be shared). Do you still want to continue ?</value>
+  </data>
+  <data name="Message_ParentRomMustHaveCHILD" xml:space="preserve">
+    <value>A parent rom MUST have at least one CHILD !</value>
+  </data>
+  <data name="Title_ImportDatabaseFile" xml:space="preserve">
+    <value>Import database file</value>
+  </data>
+  <data name="MessageCaption_ImportDatabaseFile" xml:space="preserve">
+    <value>Import Database File</value>
+  </data>
+  <data name="Status_LinkingRoms" xml:space="preserve">
+    <value>Linking parnets and children roms</value>
+  </data>
+  <data name="ConsolePropertiesDescription_RomRenaming" xml:space="preserve">
+    <value>Allows to configure console auto renaming for its roms when attempting to run a rom</value>
+  </data>
+  <data name="Message_PleaseEnterFolderName" xml:space="preserve">
+    <value>Please enter the folder name (or script)</value>
+  </data>
+  <data name="Message_PleaseEnterRenaming" xml:space="preserve">
+    <value>Please enter the name or renaming method first.</value>
+  </data>
+  <data name="Title_RomRenaming" xml:space="preserve">
+    <value>Rom Renaming</value>
+  </data>
+  <data name="Message_IfRomIsParentRomAllChildrenWillBeRemoved" xml:space="preserve">
+    <value>If rom is a parent rom, it will be removed along with all its children. (And all will follow the other delete options if set)</value>
+  </data>
+  <data name="Message_PleaseSelectDatabaseFileTypeFirst" xml:space="preserve">
+    <value>Please select the database type first.</value>
+  </data>
+  <data name="Title_ExportTo" xml:space="preserve">
+    <value>Export to</value>
+  </data>
+  <data name="Title_Separate" xml:space="preserve">
+    <value>Separate</value>
+  </data>
+  <data name="Word_File" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="MessageCaption_GetDataFromTheGamesDB" xml:space="preserve">
+    <value>Get game data from The Game DB</value>
+  </data>
+  <data name="Message_PleaseSelectOneResultFirst" xml:space="preserve">
+    <value>Please select one result first</value>
+  </data>
+  <data name="MessageCaption_DetectAndDownloadFromTheGamesDB" xml:space="preserve">
+    <value>Detect and download from TheGamesDB.net</value>
+  </data>
+  <data name="MessageCaption_ApplyLanguage" xml:space="preserve">
+    <value>Apply language interface</value>
+  </data>
+  <data name="Message_YouMustRestartTheProgramToApplyLanguage" xml:space="preserve">
+    <value>You must restart the application to apply selected language resources.</value>
+  </data>
+  <data name="RomPropertiesDescription_LaunchOptions" xml:space="preserve">
+    <value>Allows to configure the commandlines to use when running this rom without emulator (run rom as executable)</value>
+  </data>
+  <data name="Title_LaunchOptions" xml:space="preserve">
+    <value>Launch options</value>
+  </data>
+  <data name="Status_ErrorSavingProfile" xml:space="preserve">
+    <value>Error saving profile</value>
+  </data>
+  <data name="Status_ProfileSavedSuccessfully" xml:space="preserve">
+    <value>Profile Saved Successfully</value>
+  </data>
+  <data name="Status_SavingProfile" xml:space="preserve">
+    <value>Saving profile</value>
+  </data>
+  <data name="Status_SavingRoms" xml:space="preserve">
+    <value>Saving roms</value>
+  </data>
+  <data name="Status_SavingRomsCahced" xml:space="preserve">
+    <value>Saving roms that already cached and not changed</value>
+  </data>
+  <data name="Status_LoadingRomsFromCache" xml:space="preserve">
+    <value>Loading roms from cache ...</value>
+  </data>
+  <data name="Message_PleaseEnterTheFilePathFirstWhereToSaveTheDescriptionFile" xml:space="preserve">
+    <value>Please enter the file path first where to save the Description file.</value>
+  </data>
+  <data name="Tab_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Message_PleaseEnterTheGameTitleFirst" xml:space="preserve">
+    <value>Please enter the game title first.</value>
+  </data>
+  <data name="Tab_Links" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="Message_AllSelectedRomsMustBelongToTheSameParentConsole" xml:space="preserve">
+    <value>All selected roms MUST belong to the same parent console !!</value>
+  </data>
+</root>

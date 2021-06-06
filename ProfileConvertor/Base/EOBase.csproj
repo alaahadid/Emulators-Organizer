@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B4FCD83-6C56-4BCB-8C34-9F26A19D5E97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AHD.EO.Base</RootNamespace>
+    <AssemblyName>EOBase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|AnyCPU'">
+    <OutputPath>bin\x86\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'x86|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\x86\</OutputPath>
+    <Optimize>true</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SevenZipSharp">
+      <HintPath>..\..\libraries\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\ProgressArg.cs" />
+    <Compile Include="Attributes\AttrColumnable.cs" />
+    <Compile Include="Attributes\AttrHasControl.cs" />
+    <Compile Include="Attributes\AttrDetectable.cs" />
+    <Compile Include="Attributes\AttrMultiDetect.cs" />
+    <Compile Include="Columns\ColumnItem.cs" />
+    <Compile Include="Commandlines\CommandlinesWrapper.cs" />
+    <Compile Include="Commandlines\Commandline.cs" />
+    <Compile Include="Commandlines\CommandlinesGroup.cs" />
+    <Compile Include="Commandlines\CommandLinesXML.cs" />
+    <Compile Include="Comparers\ConsoleGroupComparer.cs" />
+    <Compile Include="Comparers\ConsolesComparer.cs" />
+    <Compile Include="Comparers\ConsoleCategoriesComparer.cs" />
+    <Compile Include="Comparers\InformationContainerComparer.cs" />
+    <Compile Include="Comparers\PlaylistGroupComparer.cs" />
+    <Compile Include="Comparers\PlaylistsComparer.cs" />
+    <Compile Include="Comparers\RomsComparer.cs" />
+    <Compile Include="ConfigurationFile\ConfigurationFile.cs" />
+    <Compile Include="ConfigurationFile\ConfigurationValue.cs" />
+    <Compile Include="Consoles\ConsoleCategory.cs" />
+    <Compile Include="Consoles\Console.cs" />
+    <Compile Include="Consoles\ConsolesGroup.cs" />
+    <Compile Include="Comparers\EmulatorsComparer.cs" />
+    <Compile Include="Database\Database Files\DatabaseFile.cs" />
+    <Compile Include="Database\Database Files\DB_CSV.cs" />
+    <Compile Include="Database\Database Files\DB_MameDat.cs" />
+    <Compile Include="Database\Database Files\DB_NesCartDB.cs" />
+    <Compile Include="Database\Database Files\DB_NoIntroDat.cs" />
+    <Compile Include="Database\Database Files\DB_SMS.cs" />
+    <Compile Include="Database\Database Files\DB_WHDLoad.cs" />
+    <Compile Include="Database\DatabaseManager.cs" />
+    <Compile Include="Database\DatabaseRom.cs" />
+    <Compile Include="Database\DBProperty.cs" />
+    <Compile Include="Database\SeparateItem.cs" />
+    <Compile Include="Emulators\Emulator.cs" />
+    <Compile Include="Commandlines\Parameter.cs" />
+    <Compile Include="Commandlines\TreeNode_CommandlinesGroup.cs" />
+    <Compile Include="Commandlines\TreeNode_Commandline.cs" />
+    <Compile Include="Commandlines\TreeNode_Parameter.cs" />
+    <Compile Include="Commandlines\ICommandline.cs" />
+    <Compile Include="Commandlines\SpecialCommandlinesGroup.cs" />
+    <Compile Include="Forms\Frm_NoIntroDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDat.designer.cs">
+      <DependentUpon>Frm_NoIntroDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDatImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_NoIntroDatImport.designer.cs">
+      <DependentUpon>Frm_NoIntroDatImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_CsvExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_CsvExportOptions.Designer.cs">
+      <DependentUpon>Frm_CsvExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Frm_SMSExportOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Frm_SMSExportOptions.Designer.cs">
+      <DependentUpon>Frm_SMSExportOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainer\InformationContainerConsoleItem\ICConsoleItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerItem\InformationContainerYoutubeVideoItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerItem\InformationContainerLinksItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerItem\RomDataICItem.cs" />
+    <Compile Include="InformationContainer\Types\RomDataInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\RomInfoInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\LinksInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\FilesInFolderInformationContainer.cs" />
+    <Compile Include="InformationContainer\InformationContainerItem\InformationContainerFilesInFolderItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerConsoleItem\ICFilesInFolderConsoleItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerConsoleItem\InformationContainerConsole.cs" />
+    <Compile Include="InformationContainer\InformationContainerItem\InformationContainerItem.cs" />
+    <Compile Include="InformationContainer\InformationContainerLocation.cs" />
+    <Compile Include="InformationContainer\Types\ImagesInformationContainer.cs" />
+    <Compile Include="InformationContainer\InformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\InfoTextInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\ManualsInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\VideosInformationContainer.cs" />
+    <Compile Include="InformationContainer\Types\YoutubeInformationContainer.cs" />
+    <Compile Include="Playlists\TreeNodePlayListsGroup.cs" />
+    <Compile Include="Playlists\TreeNodePlayList.cs" />
+    <Compile Include="InformationContainer\Types\SoundsInformationContainer.cs" />
+    <Compile Include="Types\Crc32.cs" />
+    <Compile Include="Types\EOTreeNode.cs" />
+    <Compile Include="Profiles\ProfilesManager.cs" />
+    <Compile Include="Playlists\PlaylistsGroup.cs" />
+    <Compile Include="Playlists\Playlist.cs" />
+    <Compile Include="Profiles\Profile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roms\Rom.cs" />
+    <Compile Include="Consoles\TreeNodeConsolesGroup.cs" />
+    <Compile Include="Consoles\TreeNodeConsole.cs" />
+    <Compile Include="Consoles\TreeNodeConsoleCategory.cs" />
+    <Compile Include="Types\ProgramProperties.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Forms\AHDForms.csproj">
+      <Project>{61F98A44-6B77-4025-A99C-20243C616F47}</Project>
+      <Name>AHDForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\AHDUtilities.csproj">
+      <Project>{E20586E9-67BE-42E7-AFF1-F9CFF69BD877}</Project>
+      <Name>AHDUtilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Frm_CsvExportOptions.ar-SA.resx">
+      <DependentUpon>Frm_CsvExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDat.ar-SA.resx">
+      <DependentUpon>Frm_NoIntroDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDat.resx">
+      <DependentUpon>Frm_NoIntroDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDatImport.ar-SA.resx">
+      <DependentUpon>Frm_NoIntroDatImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_NoIntroDatImport.resx">
+      <DependentUpon>Frm_NoIntroDatImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_CsvExportOptions.resx">
+      <DependentUpon>Frm_CsvExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SMSExportOptions.ar-SA.resx">
+      <DependentUpon>Frm_SMSExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Frm_SMSExportOptions.resx">
+      <DependentUpon>Frm_SMSExportOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResources\Resource.ar-SA.resx" />
+    <EmbeddedResource Include="LanguageResources\Resource.en-US.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="InformationContainer\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98DF1B1A-7B32-4357-AF7A-ADEF3A257E92}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmulatorsOrganizer.GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\Releases\Release x86\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.80.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libraries\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="MMB">
+      <HintPath>..\..\..\ManagedMessageBoxDemo\release\MMB dll (x86)\MMB.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp, Version=0.64.3890.29348, Culture=neutral, PublicKeyToken=20de82c62b055c88, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\libraries\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\SettingsCopyMode.cs" />
+    <Compile Include="CommandlinesEditor\CommandlinesEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommandlinesEditor\CommandlinesEditor.Designer.cs">
+      <DependentUpon>CommandlinesEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandlinesEditor\Form_CommandlineProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommandlinesEditor\Form_CommandlineProperties.designer.cs">
+      <DependentUpon>Form_CommandlineProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\ConsoleStatusBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\ConsoleStatusBrowser.Designer.cs">
+      <DependentUpon>ConsoleStatusBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleLinksViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleLinksViewer.Designer.cs">
+      <DependentUpon>ConsoleLinksViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesRomRenaming.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesRomRenaming.Designer.cs">
+      <DependentUpon>ConsolePropertiesRomRenaming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesInformation.Designer.cs">
+      <DependentUpon>ConsolePropertiesInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleManualViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleManualViewer.Designer.cs">
+      <DependentUpon>ConsoleManualViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleInformationViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControls\ConsoleInformationViewer.Designer.cs">
+      <DependentUpon>ConsoleInformationViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleInfoControl.Designer.cs">
+      <DependentUpon>ConsoleInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesArchive.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesArchive.Designer.cs">
+      <DependentUpon>ConsolePropertiesArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsoleGroupPropertiesStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsoleGroupPropertiesStyle.Designer.cs">
+      <DependentUpon>ConsoleGroupPropertiesStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesStyle.Designer.cs">
+      <DependentUpon>ConsolePropertiesStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesTabs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesTabs.Designer.cs">
+      <DependentUpon>ConsolePropertiesTabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesDataRomInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesDataRomInfo.Designer.cs">
+      <DependentUpon>ConsolePropertiesDataRomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesIconAndBackground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesIconAndBackground.Designer.cs">
+      <DependentUpon>ConsolePropertiesIconAndBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\ConsoleProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\ConsoleProperties.Designer.cs">
+      <DependentUpon>ConsoleProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\ConsolePropertiesGeneral.Designer.cs">
+      <DependentUpon>ConsolePropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\ConsolesGroupProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\ConsolesGroupProperties.Designer.cs">
+      <DependentUpon>ConsolesGroupProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesIconAndBackground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesIconAndBackground.Designer.cs">
+      <DependentUpon>ConsolesGroupPropertiesIconAndBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesGeneral.Designer.cs">
+      <DependentUpon>ConsolesGroupPropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\IConsolesGroupPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsolesGroupProperties\Controls\IConsolesGroupPropertiesControl.Designer.cs">
+      <DependentUpon>IConsolesGroupPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\CategoiresBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\CategoiresBrowser.Designer.cs">
+      <DependentUpon>CategoiresBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\ConsolesBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\ConsolesBrowser.Designer.cs">
+      <DependentUpon>ConsolesBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\EmulatorsBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\EmulatorsBrowser.Designer.cs">
+      <DependentUpon>EmulatorsBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\FiltersBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\FiltersBrowser.Designer.cs">
+      <DependentUpon>FiltersBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\_IBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Args\EnterNameFormOkPressedArgs.cs" />
+    <Compile Include="Controls\ImagePanel\ImagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ImagePanel\ImagePanel.Designer.cs">
+      <DependentUpon>ImagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImagePanel\ImagePanelEnums.cs" />
+    <Compile Include="Controls\Rating\Rating.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Rating\Rating.designer.cs">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ScoreField.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ScoreField.Designer.cs">
+      <DependentUpon>ScoreField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesProgramsToLaunch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesProgramsToLaunch.Designer.cs">
+      <DependentUpon>EmulatorPropertiesProgramsToLaunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesParentConsoles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesParentConsoles.Designer.cs">
+      <DependentUpon>EmulatorPropertiesParentConsoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesCommandlines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesCommandlines.Designer.cs">
+      <DependentUpon>EmulatorPropertiesCommandlines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\EmulatorPropertiesGeneral.Designer.cs">
+      <DependentUpon>EmulatorPropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\IEmulatorPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\Controls\IEmulatorPropertiesControl.Designer.cs">
+      <DependentUpon>IEmulatorPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmulatorProperties\EmulatorProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmulatorProperties\EmulatorProperties.Designer.cs">
+      <DependentUpon>EmulatorProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormICCopyConflict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormICCopyConflict.Designer.cs">
+      <DependentUpon>FormICCopyConflict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_CloneSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_CloneSettings.Designer.cs">
+      <DependentUpon>Form_CloneSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database\Form_ImportDatabaseFileUniversal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database\Form_ImportDatabaseFileUniversal.Designer.cs">
+      <DependentUpon>Form_ImportDatabaseFileUniversal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database\Form_ExportToDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database\Form_ExportToDatabase.designer.cs">
+      <DependentUpon>Form_ExportToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database\Form_SeparateDatabaseFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database\Form_SeparateDatabaseFile.designer.cs">
+      <DependentUpon>Form_SeparateDatabaseFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database\Form_GetImagesFromDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database\Form_GetImagesFromDatabase.designer.cs">
+      <DependentUpon>Form_GetImagesFromDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Database\Form_GetInfoFromDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Database\Form_GetInfoFromDatabase.designer.cs">
+      <DependentUpon>Form_GetInfoFromDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddLink.Designer.cs">
+      <DependentUpon>Form_AddLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DetectAndDownloadFromTheGameDBRoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DetectAndDownloadFromTheGameDBRoms.Designer.cs">
+      <DependentUpon>Form_DetectAndDownloadFromTheGameDBRoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DetectRomIcons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DetectRomIcons.Designer.cs">
+      <DependentUpon>Form_DetectRomIcons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_FieldsEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_FieldsEdit.Designer.cs">
+      <DependentUpon>Form_FieldsEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_FileListEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_FileListEdit.Designer.cs">
+      <DependentUpon>Form_FileListEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Detect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Detect.Designer.cs">
+      <DependentUpon>Form_Detect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_EnterName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_EnterName.designer.cs">
+      <DependentUpon>Form_EnterName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddEmulator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddEmulator.Designer.cs">
+      <DependentUpon>Form_AddEmulator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddRoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddRoms.Designer.cs">
+      <DependentUpon>Form_AddRoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Emulators.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Emulators.Designer.cs">
+      <DependentUpon>Form_Emulators.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_FindRoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_FindRoms.Designer.cs">
+      <DependentUpon>Form_FindRoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddFilter.Designer.cs">
+      <DependentUpon>Form_AddFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\InformationContainersBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\InformationContainersBrowser.Designer.cs">
+      <DependentUpon>InformationContainersBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddInformationContainerItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddInformationContainerItem.Designer.cs">
+      <DependentUpon>Form_AddInformationContainerItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ClearProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ClearProfile.Designer.cs">
+      <DependentUpon>Form_ClearProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_CompressionTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_CompressionTool.designer.cs">
+      <DependentUpon>Form_CompressionTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_GetImagesFromFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_GetImagesFromFolder.designer.cs">
+      <DependentUpon>Form_GetImagesFromFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_MobyGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_MobyGames.designer.cs">
+      <DependentUpon>Form_MobyGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_RecentProfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_RecentProfiles.Designer.cs">
+      <DependentUpon>Form_RecentProfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ProfileSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ProfileSettings.Designer.cs">
+      <DependentUpon>Form_ProfileSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ClearRelatedFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ClearRelatedFiles.Designer.cs">
+      <DependentUpon>Form_ClearRelatedFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DownloadFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DownloadFiles.designer.cs">
+      <DependentUpon>Form_DownloadFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_GetImagesFromGoogleImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_GetImagesFromGoogleImage.designer.cs">
+      <DependentUpon>Form_GetImagesFromGoogleImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ApplyNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ApplyNames.Designer.cs">
+      <DependentUpon>Form_ApplyNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Backup.designer.cs">
+      <DependentUpon>Form_Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DetectICSWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DetectICSWizard.Designer.cs">
+      <DependentUpon>Form_DetectICSWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_RestoreBackupFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_RestoreBackupFile.Designer.cs">
+      <DependentUpon>Form_RestoreBackupFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ExportConsoleToFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ExportConsoleToFile.Designer.cs">
+      <DependentUpon>Form_ExportConsoleToFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ProgamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ProgamAdd.designer.cs">
+      <DependentUpon>Form_ProgamAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_SendTo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_SendTo.designer.cs">
+      <DependentUpon>Form_SendTo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_StyleEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_StyleEditor.Designer.cs">
+      <DependentUpon>Form_StyleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_ScoreEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_ScoreEdit.Designer.cs">
+      <DependentUpon>Form_ScoreEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DataInfoToInfoTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DataInfoToInfoTab.Designer.cs">
+      <DependentUpon>Form_DataInfoToInfoTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddMameConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddMameConsole.Designer.cs">
+      <DependentUpon>Form_AddMameConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_SearchTheGameDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_SearchTheGameDB.Designer.cs">
+      <DependentUpon>Form_SearchTheGameDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AssignDataFromTheGameDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AssignDataFromTheGameDB.Designer.cs">
+      <DependentUpon>Form_AssignDataFromTheGameDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_TheGameDBImageMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_TheGameDBImageMode.Designer.cs">
+      <DependentUpon>Form_TheGameDBImageMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DetectAndDownloadFromTheGameDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DetectAndDownloadFromTheGameDB.Designer.cs">
+      <DependentUpon>Form_DetectAndDownloadFromTheGameDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_PleaseWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_PleaseWait.Designer.cs">
+      <DependentUpon>Form_PleaseWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_SelectRomDataInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_SelectRomDataInfo.Designer.cs">
+      <DependentUpon>Form_SelectRomDataInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmExportNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmExportNames.Designer.cs">
+      <DependentUpon>FrmExportNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICReviewScore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICReviewScore.Designer.cs">
+      <DependentUpon>ICReviewScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICYoutube.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICYoutube.Designer.cs">
+      <DependentUpon>ICYoutube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICRomInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICRomInfo.Designer.cs">
+      <DependentUpon>ICRomInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICPDF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICPDF.Designer.cs">
+      <DependentUpon>ICPDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICMedia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICMedia.Designer.cs">
+      <DependentUpon>ICMedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICLinks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICLinks.Designer.cs">
+      <DependentUpon>ICLinks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICInfoText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICInfoText.Designer.cs">
+      <DependentUpon>ICInfoText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InformationContainerControls\ICImage.Designer.cs">
+      <DependentUpon>ICImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformationContainerControls\_ICControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistProprtiesStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistProprtiesStyle.Designer.cs">
+      <DependentUpon>PlaylistProprtiesStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesStyle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesStyle.Designer.cs">
+      <DependentUpon>PlaylistsGroupPropertiesStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\ProfileStatusBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\ProfileStatusBrowser.Designer.cs">
+      <DependentUpon>ProfileStatusBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProfileGeneralInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProfileGeneralInfo.Designer.cs">
+      <DependentUpon>ProfileGeneralInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCommandlinesWhenNoEmulator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCommandlinesWhenNoEmulator.Designer.cs">
+      <DependentUpon>RomPropertiesCommandlinesWhenNoEmulator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesParentAndChildren.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesParentAndChildren.Designer.cs">
+      <DependentUpon>RomPropertiesParentAndChildren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesProgramsToLaunch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesProgramsToLaunch.Designer.cs">
+      <DependentUpon>RomPropertiesProgramsToLaunch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Types\ListViewItemComparer.cs" />
+    <Compile Include="PlaylistProperties\PlaylistProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\PlaylistProperties.Designer.cs">
+      <DependentUpon>PlaylistProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistPropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistPropertiesGeneral.Designer.cs">
+      <DependentUpon>PlaylistPropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistPropertiesIconAndBackground.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\PlaylistPropertiesIconAndBackground.Designer.cs">
+      <DependentUpon>PlaylistPropertiesIconAndBackground.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\IPlaylistPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistProperties\Controls\IPlaylistPropertiesControl.Designer.cs">
+      <DependentUpon>IPlaylistPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\PlaylistsGroupProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\PlaylistsGroupProperties.Designer.cs">
+      <DependentUpon>PlaylistsGroupProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesGeneral.Designer.cs">
+      <DependentUpon>PlaylistsGroupPropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesIcon.Designer.cs">
+      <DependentUpon>PlaylistsGroupPropertiesIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\IPlaylistsGroupPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlaylistsGroupProperties\Controls\IPlaylistsGroupPropertiesControl.Designer.cs">
+      <DependentUpon>IPlaylistsGroupPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_AddRomsFolderScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_AddRomsFolderScan.Designer.cs">
+      <DependentUpon>Form_AddRomsFolderScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\IConsolePropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsoleProperties\Controls\IConsolePropertiesControl.Designer.cs">
+      <DependentUpon>IConsolePropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_DeleteRoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_DeleteRoms.Designer.cs">
+      <DependentUpon>Form_DeleteRoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_RenameRoms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_RenameRoms.Designer.cs">
+      <DependentUpon>Form_RenameRoms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\PlaylistsBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\PlaylistsBrowser.Designer.cs">
+      <DependentUpon>PlaylistsBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OptimizedTreeview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Args\ProgressArg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Browsers\RomsBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\RomsBrowser.Designer.cs">
+      <DependentUpon>RomsBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCommandlines.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCommandlines.Designer.cs">
+      <DependentUpon>RomPropertiesCommandlines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesData.Designer.cs">
+      <DependentUpon>RomPropertiesData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\RomPropertiesMultibleEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RomProperties\RomPropertiesMultibleEdit.Designer.cs">
+      <DependentUpon>RomPropertiesMultibleEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCategories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesCategories.Designer.cs">
+      <DependentUpon>RomPropertiesCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\RomPropertiesGeneral.Designer.cs">
+      <DependentUpon>RomPropertiesGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\Controls\IRomPropertiesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RomProperties\Controls\IRomPropertiesControl.Designer.cs">
+      <DependentUpon>IRomPropertiesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RomProperties\RomProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RomProperties\RomProperties.Designer.cs">
+      <DependentUpon>RomProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browsers\StartOptionsPanelBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browsers\StartOptionsPanelBrowser.Designer.cs">
+      <DependentUpon>StartOptionsPanelBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StyleEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\StyleEditorControl.Designer.cs">
+      <DependentUpon>StyleEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Types\RomThumbnailInfo.cs" />
+    <Compile Include="Types\ThumbnailsMode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Browsers\ConsoleStatusBrowser.resx">
+      <DependentUpon>ConsoleStatusBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\InformationContainersBrowser.resx">
+      <DependentUpon>InformationContainersBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\ProfileStatusBrowser.resx">
+      <DependentUpon>ProfileStatusBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandlinesEditor\CommandlinesEditor.resx">
+      <DependentUpon>CommandlinesEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommandlinesEditor\Form_CommandlineProperties.resx">
+      <DependentUpon>Form_CommandlineProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesRomRenaming.resx">
+      <DependentUpon>ConsolePropertiesRomRenaming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesInformation.resx">
+      <DependentUpon>ConsolePropertiesInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\IConsolePropertiesControl.resx">
+      <DependentUpon>IConsolePropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsolesGroupProperties\Controls\IConsolesGroupPropertiesControl.resx">
+      <DependentUpon>IConsolesGroupPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConsoleInfoControls\ConsoleInformationViewer.resx">
+      <DependentUpon>ConsoleInformationViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesArchive.resx">
+      <DependentUpon>ConsolePropertiesArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesDataRomInfo.resx">
+      <DependentUpon>ConsolePropertiesDataRomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesIconAndBackground.resx">
+      <DependentUpon>ConsolePropertiesIconAndBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\ConsoleProperties.resx">
+      <DependentUpon>ConsoleProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesGeneral.resx">
+      <DependentUpon>ConsolePropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesStyle.resx">
+      <DependentUpon>ConsolePropertiesStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsoleProperties\Controls\ConsolePropertiesTabs.resx">
+      <DependentUpon>ConsolePropertiesTabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsolesGroupProperties\ConsolesGroupProperties.resx">
+      <DependentUpon>ConsolesGroupProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsolesGroupProperties\Controls\ConsoleGroupPropertiesStyle.resx">
+      <DependentUpon>ConsoleGroupPropertiesStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesIconAndBackground.resx">
+      <DependentUpon>ConsolesGroupPropertiesIconAndBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsolesGroupProperties\Controls\ConsolesGroupPropertiesGeneral.resx">
+      <DependentUpon>ConsolesGroupPropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\CategoiresBrowser.resx">
+      <DependentUpon>CategoiresBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\ConsolesBrowser.resx">
+      <DependentUpon>ConsolesBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\EmulatorsBrowser.resx">
+      <DependentUpon>EmulatorsBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\FiltersBrowser.resx">
+      <DependentUpon>FiltersBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\_IBrowserControl.resx">
+      <DependentUpon>_IBrowserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConsoleInfoControl.resx">
+      <DependentUpon>ConsoleInfoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConsoleInfoControls\ConsoleLinksViewer.resx">
+      <DependentUpon>ConsoleLinksViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConsoleInfoControls\ConsoleManualViewer.resx">
+      <DependentUpon>ConsoleManualViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Rating\Rating.resx">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ScoreField.resx">
+      <DependentUpon>ScoreField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\StyleEditorControl.resx">
+      <DependentUpon>StyleEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\Controls\EmulatorPropertiesCommandlines.resx">
+      <DependentUpon>EmulatorPropertiesCommandlines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\Controls\EmulatorPropertiesGeneral.resx">
+      <DependentUpon>EmulatorPropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\Controls\EmulatorPropertiesParentConsoles.resx">
+      <DependentUpon>EmulatorPropertiesParentConsoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\Controls\EmulatorPropertiesProgramsToLaunch.resx">
+      <DependentUpon>EmulatorPropertiesProgramsToLaunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\Controls\IEmulatorPropertiesControl.resx">
+      <DependentUpon>IEmulatorPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmulatorProperties\EmulatorProperties.resx">
+      <DependentUpon>EmulatorProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormICCopyConflict.resx">
+      <DependentUpon>FormICCopyConflict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_CloneSettings.resx">
+      <DependentUpon>Form_CloneSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database\Form_ExportToDatabase.resx">
+      <DependentUpon>Form_ExportToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database\Form_SeparateDatabaseFile.resx">
+      <DependentUpon>Form_SeparateDatabaseFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database\Form_GetImagesFromDatabase.resx">
+      <DependentUpon>Form_GetImagesFromDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database\Form_GetInfoFromDatabase.resx">
+      <DependentUpon>Form_GetInfoFromDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Database\Form_ImportDatabaseFileUniversal.resx">
+      <DependentUpon>Form_ImportDatabaseFileUniversal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddLink.resx">
+      <DependentUpon>Form_AddLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AssignDataFromTheGameDB.resx">
+      <DependentUpon>Form_AssignDataFromTheGameDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ClearProfile.resx">
+      <DependentUpon>Form_ClearProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DetectAndDownloadFromTheGameDBRoms.resx">
+      <DependentUpon>Form_DetectAndDownloadFromTheGameDBRoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DetectRomIcons.resx">
+      <DependentUpon>Form_DetectRomIcons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Detect.resx">
+      <DependentUpon>Form_Detect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_EnterName.resx">
+      <DependentUpon>Form_EnterName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddEmulator.resx">
+      <DependentUpon>Form_AddEmulator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddRoms.resx">
+      <DependentUpon>Form_AddRoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Emulators.resx">
+      <DependentUpon>Form_Emulators.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_FieldsEdit.resx">
+      <DependentUpon>Form_FieldsEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_FileListEdit.resx">
+      <DependentUpon>Form_FileListEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_FindRoms.resx">
+      <DependentUpon>Form_FindRoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddFilter.resx">
+      <DependentUpon>Form_AddFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddInformationContainerItem.resx">
+      <DependentUpon>Form_AddInformationContainerItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_CompressionTool.resx">
+      <DependentUpon>Form_CompressionTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_SearchTheGameDB.resx">
+      <DependentUpon>Form_SearchTheGameDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_GetImagesFromFolder.resx">
+      <DependentUpon>Form_GetImagesFromFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_MobyGames.resx">
+      <DependentUpon>Form_MobyGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ProfileSettings.resx">
+      <DependentUpon>Form_ProfileSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_RecentProfiles.resx">
+      <DependentUpon>Form_RecentProfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ClearRelatedFiles.resx">
+      <DependentUpon>Form_ClearRelatedFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DownloadFiles.resx">
+      <DependentUpon>Form_DownloadFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_GetImagesFromGoogleImage.resx">
+      <DependentUpon>Form_GetImagesFromGoogleImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ApplyNames.resx">
+      <DependentUpon>Form_ApplyNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Backup.resx">
+      <DependentUpon>Form_Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DetectICSWizard.resx">
+      <DependentUpon>Form_DetectICSWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_RestoreBackupFile.resx">
+      <DependentUpon>Form_RestoreBackupFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ExportConsoleToFile.resx">
+      <DependentUpon>Form_ExportConsoleToFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ProgamAdd.resx">
+      <DependentUpon>Form_ProgamAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_SendTo.resx">
+      <DependentUpon>Form_SendTo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_StyleEditor.resx">
+      <DependentUpon>Form_StyleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_ScoreEdit.resx">
+      <DependentUpon>Form_ScoreEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DataInfoToInfoTab.resx">
+      <DependentUpon>Form_DataInfoToInfoTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddMameConsole.resx">
+      <DependentUpon>Form_AddMameConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_TheGameDBImageMode.resx">
+      <DependentUpon>Form_TheGameDBImageMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DetectAndDownloadFromTheGameDB.resx">
+      <DependentUpon>Form_DetectAndDownloadFromTheGameDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_PleaseWait.resx">
+      <DependentUpon>Form_PleaseWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_SelectRomDataInfo.resx">
+      <DependentUpon>Form_SelectRomDataInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmExportNames.resx">
+      <DependentUpon>FrmExportNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICImage.resx">
+      <DependentUpon>ICImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICInfoText.resx">
+      <DependentUpon>ICInfoText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICLinks.resx">
+      <DependentUpon>ICLinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICMedia.resx">
+      <DependentUpon>ICMedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICPDF.resx">
+      <DependentUpon>ICPDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICReviewScore.resx">
+      <DependentUpon>ICReviewScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICRomInfo.resx">
+      <DependentUpon>ICRomInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\ICYoutube.resx">
+      <DependentUpon>ICYoutube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformationContainerControls\_ICControl.resx">
+      <DependentUpon>_ICControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistProperties\Controls\IPlaylistPropertiesControl.resx">
+      <DependentUpon>IPlaylistPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistProperties\Controls\PlaylistProprtiesStyle.resx">
+      <DependentUpon>PlaylistProprtiesStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistProperties\PlaylistProperties.resx">
+      <DependentUpon>PlaylistProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistProperties\Controls\PlaylistPropertiesGeneral.resx">
+      <DependentUpon>PlaylistPropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistProperties\Controls\PlaylistPropertiesIconAndBackground.resx">
+      <DependentUpon>PlaylistPropertiesIconAndBackground.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistsGroupProperties\Controls\IPlaylistsGroupPropertiesControl.resx">
+      <DependentUpon>IPlaylistsGroupPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesStyle.resx">
+      <DependentUpon>PlaylistsGroupPropertiesStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistsGroupProperties\PlaylistsGroupProperties.resx">
+      <DependentUpon>PlaylistsGroupProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesGeneral.resx">
+      <DependentUpon>PlaylistsGroupPropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlaylistsGroupProperties\Controls\PlaylistsGroupPropertiesIcon.resx">
+      <DependentUpon>PlaylistsGroupPropertiesIcon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_AddRomsFolderScan.resx">
+      <DependentUpon>Form_AddRomsFolderScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_DeleteRoms.resx">
+      <DependentUpon>Form_DeleteRoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_RenameRoms.resx">
+      <DependentUpon>Form_RenameRoms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\PlaylistsBrowser.resx">
+      <DependentUpon>PlaylistsBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\RomsBrowser.resx">
+      <DependentUpon>RomsBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProfileGeneralInfo.resx">
+      <DependentUpon>ProfileGeneralInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\IRomPropertiesControl.resx">
+      <DependentUpon>IRomPropertiesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesCommandlinesWhenNoEmulator.resx">
+      <DependentUpon>RomPropertiesCommandlinesWhenNoEmulator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesParentAndChildren.resx">
+      <DependentUpon>RomPropertiesParentAndChildren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesProgramsToLaunch.resx">
+      <DependentUpon>RomPropertiesProgramsToLaunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesCommandlines.resx">
+      <DependentUpon>RomPropertiesCommandlines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesData.resx">
+      <DependentUpon>RomPropertiesData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\RomPropertiesMultibleEdit.resx">
+      <DependentUpon>RomPropertiesMultibleEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesCategories.resx">
+      <DependentUpon>RomPropertiesCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\Controls\RomPropertiesGeneral.resx">
+      <DependentUpon>RomPropertiesGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RomProperties\RomProperties.resx">
+      <DependentUpon>RomProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browsers\StartOptionsPanelBrowser.resx">
+      <DependentUpon>StartOptionsPanelBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MTC\MTC.csproj">
+      <Project>{f496c3fc-acd2-4b39-8747-fdb8b67739bc}</Project>
+      <Name>MTC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{99d4a9af-b86a-41ff-9a06-c3063e8479e1}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MLV\MLV.csproj">
+      <Project>{cb876583-d5f9-4398-b399-fbe6d4aa8a51}</Project>
+      <Name>MLV</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services\Services.csproj">
+      <Project>{43b1b977-1b03-49b8-922b-471342f560a5}</Project>
+      <Name>Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_columns.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textfield_rename.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageIcon_Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information_cameleonhelp_divers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3830-12566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\danger_cameleonhelp_divers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erreur_cameleonhelp_divers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_linespacing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joystick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_detail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Console.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\properties.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Favorites.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_lowercase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_letterspacing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pilcrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Favorites1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmulatorsOrganizer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_view_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_inout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File_PDF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\control_play_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\internet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google_icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script_code.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_page_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_bar_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_explore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File_RTF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade_Astrocity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the game db icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the game db.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paypal-donate-button.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_bar_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

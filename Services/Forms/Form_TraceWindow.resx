@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Show message from:</value>
+  </data>
+  <data name="ComboBox1.Items" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ComboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 25</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>290</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 25</value>
+  </data>
+  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 492</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABO
+        DQAAAk1TRnQBSQFMAgEBAwEAASABAAEgAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEP8AUwABUAFUAVYBogEpAacB4AH/AScBpAHfAf8BJQGhAd0B/wEjAZ4B3AH/
+        ASEBmwHaAf8BHwGYAdkB/wEcAZMB1gH/ARcBjAHTAf8BEgGFAc8B/wENAXoBzAH/AQkBcwHJAf8BBQFt
+        AcYB/wECAWgBwwH/AQABZAHBAf8BTwFRAVUBohAAAxkBIwJFAUYBfQFQAVcBfgHbATsBTAGjAfMBOgFM
+        AaEB8wFPAVYBewHbAkUBRgF9AxkBI5AAAU4BfQGTAeMBvgHjAfUB/wH0AfwB/gH/Ae8B+wH+Af8B7gH7
+        Af4B/wHuAfsB/gH/Ae8B/AH+Af8B7wH8Af4B/wHvAfsB/gH/Ae4B+wH+Af8B7QH7Af4B/wHtAfsB/gH/
+        AewB+wH+Af8B8gH8Af4B/wGrAc4B6wH/AUYBXwF5AdgMAAMzAVMBTwFYAZIB5gFOAWAB1AH/AYQBkAHn
+        Af8BlQGgAe4B/wGVAZ8B7QH/AYMBjgHlAf8BSAFZAc4B/wFHAVEBiwHmAzMBU2AAAxgBIgF+AWwBWgHe
+        AzsBZCAAAzABSwFeAb8B6AH/AfQB/AH+Af8BtQHvAfoB/wFUAdoB9QH/AVQB2gH1Af8BUwHYAfMB/wFU
+        AdcB8gH/AVQB1gHyAf8BUwHZAfQB/wFNAdgB9QH/AUoB1wH0Af8BXgHaAfYB/wHqAfsB/gH/AUABkwHS
+        Af8DMAFLCAADMwFTAUQBVgGwAfQBcQGEAeMB/wGhAawB9AH/AXsBiwHsAf8BWAFjAeQB/wFXAWIB4wH/
+        AXkBhwHqAf8BnwGoAfEB/wFrAXgB3QH/ATgBSgGiAfQDMwFTYAABTAJKAY0B1AG2AZkB/wGeAXsBVQH0
+        A0ABcRwAAVQBagFyAcoBnQHXAfEB/wHnAfkB/QH/AYsB5QH4Af8BVgHbAfYB/wFXAdoB9AH/ATkBoQHV
+        Af8BOQGhAdUB/wFQAdYB8gH/AU4B2AH1Af8BTAHWAfQB/wHYAfYB/AH/AYgBvwHlAf8BUQFYAV4BtAgA
+        AxgBIgFWAV4BlgHlAXQBiAHmAf8BowGwAfUB/wFTAWMB5wH/AVIBYQHmAf8BiQGSAe0B/wGIAZIB7AH/
+        AU8BWwHiAf8BTgFZAeEB/wGfAakB8gH/AWsBeQHdAf8BSwFUAYsB5QMYASJgAAF9AWwBXAHcAfUB7gHn
+        Af8B1QG4AZ0B/wGlAYMBVQH3AUYCRQF9FAADGgEkATIBogHTAfsB8wH7Af4B/wHDAfIB+wH/AVgB3AH2
+        Af8BWAHaAfQB/wFgAd8B9gH/AVMBywHrAf8BUQHWAfIB/wFQAdkB9QH/AZQB5wH4Af8B4wH0AfsB/wEg
+        AYMBuwH5AxoBJAgAA0YBfgFcAW8B4AH/AaQBswH3Af8BVgFqAesB/wFVAWgB6gH/AVQBZQHoCf8BUQFe
+        AeUB/wFQAV0B4wH/AU8BWwHiAf8BnwGpAfIB/wFMAV0B0QH/AUUCRgF+TAADDQESAVUBVAFTAaUBsAF+
+        AVMB/AG4AYcBVAH/AbgBhwFUAf8B1QG4AZ0J/wH4AfMB7wH/AdUBuAGdAf8BcQFnAVoB0wMaASQQAAFR
+        AVcBWQGqAYwB0gHwAf8B6gH7Af4B/wGUAeYB+AH/AVgB2gH0Af8BQwGxAd0B/wE5AaEB1QH/AVIB1wHy
+        Af8BWAHbAfUB/wHeAfgB/QH/AXkBwAHnAf8BSAJJAYcMAAFaAWMBiAHbAY4BnwHwAf8BhAGZAfQB/wFY
+        AW8B7gH/AVcBbAHsAf8BVgFqAesB/wGQAZ0B8QH/AaYBrwHzAf8BUwFjAecB/wFSAWEB5gH/AVEBXgHl
+        Af8BeQGJAesB/wGFAZEB5wH/AVABWAGAAdtMAAFbAVcBVgGxAdoBwQGpAf8C/gH9Df8B/gHuAeIB/wH9
+        AeMB0AH/Af4B8gHpBf8B3wHJAbQB/wF7AWoBWgHbAwcBCQwAAwkBDAFKAY4BqgHsAcgB6gH3Af8B5gH6
+        Af0B/wFZAdoB9AH/ATkBoQHVAf8BOQGhAdUB/wFTAdcB8gH/AccB8wH8Af8BwAHjAfQB/wFGAXkBkgHk
+        AwkBDAwAAVcBZgHEAfYBoAGzAfcB/wFhAYAB8gH/AVsBdAHwAf8BWQFyAe8B/wFYAW8B7gH/AdMB2QH6
+        Bf8BVQFoAeoB/wFUAWUB6AH/AVMBYwHnAf8BWQFoAecB/wGZAaUB8QH/ATsBTAGtAfZIAAMJAQwBsAF+
+        AVMB/AL+Af0B/wH+AfIB6QH/Af4B7AHfAf8B/QHrAdwB/wH9AekB2QH/Af0B5wHWAf8B/QHmAdMB/wH9
+        AeQB0AH/AfwB5AHRBf8ByAGiAXkB/wMmATkQAAM3AVoBbQHIAe0B/wH5Af4C/wFaAdwB9AH/AToBogHV
+        Af8BOgGiAdUB/wFYAdkB9AH/Ae0B+wH+Af8BZAG7AeUB/wM3AVoQAAFbAW0ByAH2AaEBtgH4Af8BYwGE
+        AfQB/wFcAXgB8wH/AVsBdgHxAf8BWwF0AfAJ/wFXAWwB7AH/AVYBagHrAf8BVQFoAeoB/wFbAWsB6QH/
+        AZsBqAHxAf8BQgFQAbAB9kgAAxYBHgHAAZUBaAX/Af4B8AHlAf8B/gHuAeIB/wH+Ae0B4AH/Af4B6wHd
+        Af8B/QHpAdoB/wH9AegB1wH/Af0B5gHUAf8B/QHkAdEF/wHNAaoBiQH/AzABSxQAAVUBdAF+AdQBqQHf
+        AfQB/wHtAfkB/QH/AToBowHWAf8BOgGjAdYB/wHUAfUB/AH/AaIB1wHxAf8BUwFjAWoBwxQAAV8BZgGK
+        AdsBkQGmAfMB/wGIAaEB+AH/AV4BgAH0Af8BXQF6AfMB/wFcAXgB8wn/AVkBcgHvAf8BWAFvAe4B/wFX
+        AWwB7AH/AYIBkwHxAf8BiQGYAewB/wFVAVoBgwHbSAADFgEeAcABlQFoBf8B/gHxAegB/wH+AfAB5gH/
+        Af4B7wHjAf8B/gHtAeAB/wH+AewB3QH/Af0B6gHbAf8B/QHoAdcB/wH9AeYB1QX/Ac0BqgGJAf8DMAFL
+        FAADIQEwATwBswHdAf0B+QH9Av8BlAHpAfkB/wGeAesB+gH/AewB+gH+Af8BLAGeAdAB/AMhATAUAANG
+        AX4BaAGBAewB/wGpAb0B+wH/AV8BggH1Af8BXgGBAfUB/wFeAYAB9An/AVsBdgHxAf8BWwF0AfAB/wFZ
+        AXIB7wH/AaUBtQH4Af8BWQFsAd0B/wFFAkYBfkgAAwkBDAGwAX4BUwH8Av4B/QH/Af4B9gHwAf8B/gHy
+        AekB/wH+AfEB5gH/Af4B7wHkAf8B/gHuAeEB/wH+AewB3gH/Af0B6gHbAf8B/QHqAdwF/wHHAaABdwH/
+        AyQBNhgAAVQBXQFfAbQBlAHYAfIB/wHzAfwB/gH/AecB+gH+Af8BjwHTAfAB/wFNAU8BUAGWGAADGAEi
+        AWUBbgGhAeUBgwGXAfAB/wGpAb0B+wH/AV8BggH1Af8BXwGCAfUJ/wFdAXoB8wH/AVwBeAHzAf8BpgG5
+        AfkB/wF3AY0B6gH/AVYBZAGXAeUDGAEiTAABWwFXAVYBsQHaAcEBqQH/Af0B/AH7Hf8B3wHJAbQB/wF7
+        AWoBWgHbAwQBBhgAAw0BEgFHAZ0BugHyAfEB+gH9Af8B1QHvAfoB/wFHAY4BqgHtAw0BEhwAAzMBUwFl
+        AXgBygH0AYQBlwHxAf8BqQG9AfsB/wGKAaMB+AH/AWcBiQH2Af8BZwGJAfYB/wGJAaIB+AH/AagBvAH6
+        Af8BewGSAewB/wFSAWUBvQH0AzMBU1AAAw0BEgFVAVQBUwGlAasBgwFYAfkBuAGHAVQB/wG4AYcBVAH/
+        AbgBhwFUAf8BuAGHAVQB/wG4AYcBVAH/AbgBhwFUAf8BuAGHAVQB/wFfAVsBVwG6AxoBJCAAAU0CTwGV
+        AYUB1AHxAf8BggHRAfAB/wM9AWkkAAMzAVMBYgFwAaQB5gFqAYMB7gH/AZIBpgH0Af8BoAG0AfgB/wGg
+        AbQB+AH/AZEBpgHzAf8BZAF5AekB/wFaAWkBngHmAzMBU6QAAwIBAwFVAXUBgQHUAVYBZwFrAcMDAgED
+        KAADGQEjAkUBRgF9AV8BagGOAdsBXwFzAcYB8wFfAXIBxAHzAV8BZgGKAdsCRQFGAX0DGQEj/wBRAAFC
+        AU0BPgcAAT4DAAEoAwABQAMAARADAAEBAQABAQUAAYAXAAP/AQAG/wIAAv8CAAHwAQ8CAAL/AgAB4AEH
+        AgAB+AH/AgABwAEDAgAB/AE/AYABAQGAAQECAAH+AQ8BgAEBAYABAQIAAcABAwHAAQMBgAEBAgABwAEB
+        AcABAwGAAQECAAGAAQEB4AEHAYABAQIAAYABAQHwAQ8BgAEBAgABgAEBAfABDwGAAQECAAGAAQEB+AEf
+        AYABAQIAAcABAQH4AR8BwAEDAgABwAEDAfwBPwHgAQcCAAL/AfwBPwHwAQ8CAAb/AgAL
+</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>572, 517</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Trace</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Name" xml:space="preserve">
+    <value>toolStripLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.Name" xml:space="preserve">
+    <value>ComboBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form_TraceWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
